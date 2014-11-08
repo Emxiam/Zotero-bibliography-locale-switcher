@@ -7,7 +7,7 @@
    <em:id>zotbiblioswitchlocal@somwhere.org</em:id>
    <em:unpack>false</em:unpack>
    <em:name>Zotero Bibliography Locale Switcher</em:name>
-   <em:version>0.8</em:version>
+   <em:version>0.9.1</em:version>
    <em:creator>Maxime Rigo</em:creator>
    <em:contributor>Based from Benjamin Smedberg's Quick Locale Switcher http://benjamin.smedbergs.us/switch-locales/  and Martijn Kooij a.k.a. Captain Caveman</em:contributor>
    <em:description>Displays a menu item for switching the zotero bibliography export locale.</em:description>
