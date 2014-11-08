@@ -21,5 +21,6 @@ pref("extensions.zls.switch_contentlocale", true);
 pref("extensions.zls.switch_gulocale", false);
 pref("extensions.zls.useautoswitch", true);
 pref("extensions.zls.visiblemenuitems", "en-US#nl-NL#fr-FR#it-IT#es-ES#ja-JP#de-DE#pt-PT#zh-CN#ru-RU#zh-TW");
+pref("extensions.zls.defaultmenuitems", "en-US#nl-NL#fr-FR#it-IT#es-ES#ja-JP#de-DE#pt-PT#zh-CN#ru-RU#zh-TW");
 pref("extensions.zls.switchback.modifiers", "accel shift");
 pref("extensions.zls.switchback.key", "Q");

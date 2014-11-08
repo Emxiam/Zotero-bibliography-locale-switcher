@@ -86,16 +86,13 @@ function InitWindow()
 
 	RefreshVisibleMenuItems('');
 	ZLSInitHostLocales();
-	InitAutoSwitchListbox();
+	//InitAutoSwitchListbox();
 	
 	document.getElementById("lbvisiblemenuitems").addEventListener('dragover', ZLSDragOver, false);
 	document.getElementById("lbvisiblemenuitems").addEventListener('dragdrop', ZLSDrop, false);
 }
 
-function OpenAutoSwitchHosts()
-{
-	window.open("chrome://zls/content/autoswitchhosts.xul", "autoswitchhosts-window", "centerscreen,chrome,width=500,height=300,resizable");
-}
+
 
 function BeforeClose()
 {
@@ -138,6 +135,21 @@ function SelectAllItems(bSelect)
 		oItem.setAttribute("checked", bSelect);
 		CheckLocale(oItem.id);
 	}
+}
+
+
+
+function Resetlocale()
+{
+	
+
+    var DefaultLocale = "";
+ 
+    DefaultLocale = GetPref("defaultmenuitems");
+  	SetPref("visiblemenuitems", DefaultLocale);
+	 
+	 
+	RefreshVisibleMenuItems('');
 }
 
 function DisableSwitchOptions(bDisable)

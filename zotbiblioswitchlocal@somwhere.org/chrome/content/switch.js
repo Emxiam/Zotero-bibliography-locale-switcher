@@ -28,6 +28,8 @@ the terms of any one of the MPL, the GPL or the LGPL.
 
 ***** END LICENSE BLOCK ***** */
 
+const ZLS_ALL_LOCALES = "af-ZA#am-ET#ar-AE#ar-BH#ar-DZ#ar-EG#ar-IQ#ar-JO#ar-KW#ar-LB#ar-LY#ar-MA#ar-OM#ar-QA#ar-SA#ar-SY#ar-TN#ar-YE#arn-CL#as-IN#ast-ES#az-AZ-Cyrl#az-AZ-Latn#ba-RU#be-BY#ber-DZ#bg-BG#bn-BD#bn-IN#bo-BT#bo-CN#br-FR#bs-BA-Cyrl#bs-BA-Latn#ca-AD#ca-ES#ca-FR#ca-valencia#co-FR#cs-CZ#cy-GB#da-DK#de-AT#de-CH#de-DE#de-LI#de-LU#div-MV#el-GR#en-AU#en-BZ#en-CA#en-CB#en-GB#en-IE#en-IN#en-JA#en-MY#en-NZ#en-PH#en-SG#en-TT#en-US#en-ZA#en-ZW#eo-EO#es-AR#es-BO#es-CL#es-CO#es-CU#es-CR#es-DO#es-EC#es-ES#es-ES-ts#es-GT#es-HN#es-MX#es-NI#es-PA#es-PE#es-PR#es-PY#es-SV#es-UY#es-US#es-VE#et-EE#eu-ES#fa-IR#fi-FI#fil-PH#fo-FO#fr-BE#fr-CA#fr-CH#fr-FR#fr-LU#fr-MC#fur-IT#fy-NL#ga-IE#gbz-AF#gd-GB#gl-ES#gsw-FR#gu-IN#ha-NG-Latn#he-IL#hi-IN#hr-BA#hr-HR#hu-HU#hy-AM#id-ID#ii-CN#is-IS#it-CH#it-IT#iu-CA-Cans#iu-CA-Latn#ja-JP#ja-JP-mac#ka-GE#kk-KZ#kl-GL#km-KH#kn-IN#kok-IN#ko-KR#ky-KG#lb-LU#lo-LA#lt-LT#lug-UG#lv-LV#mi-NZ#mk-MK#ml-IN#mn-CN#mn-MN#moh-CA#mr-IN#ms-BN#ms-MY#mt-MT#nb-NO#ne-NP#nl-BE#nl-NL#nn-NO#nso-ZA#oc-FR#or-IN#pa-IN#pl-PL#ps-AF#pt-BR#pt-PT#qut-GT#quz-BO#quz-EC#quz-PE#rm-CH#ro-RO#ru-RU#rw-RW#sah-RU#sa-IN#se-FI#se-NO#se-SE#si-LK#sk-SK#sl-SI#sma-NO#sma-SE#smj-NO#smj-SE#smn-FI#sms-FI#son-NE#sq-AL#sr-BA-Cyrl#sr-BA-Latn#sr-ME#sr-RS#sv-FI#sv-SE#sw-KE#syr-SY#ta-IN#ta-LK#te-IN#tg-TJ-Cyrl#th-TH#tk-TM#tn-ZA#ur-IN#tr-TR#tt-RU#ug-CN#uk-UA#ur-PK#uz-UZ-Cyrl#uz-UZ-Latn#vi-VN#wa-BE#dsb-DE#hsb-DE#wo-SN#xh-ZA#yo-NG#zh-CHS#zh-CHT#zh-CN#zh-HK#zh-MO#zh-SG#zh-TW#zu-ZA";
+
 
 // change zotero export locale
 function zotLocales_switch(locale) {
@@ -87,7 +89,23 @@ function zotLocales_load(menu) {
   	}
   catch (e) { }
   
- //get selected locales 
+  
+ //hide all menu items
+ 
+ var allIndex, allLen;
+ 
+ allLocale = this.ZLS_ALL_LOCALES.split("#");
+ allLen = allLocale.length;
+ 
+ for (allIndex = 0; allIndex < allLen; allIndex++) {
+ 	
+ 	var allItem = document.getElementById(allLocale[allIndex]);
+    allItem.setAttribute("hidden", true);
+        
+  
+}
+
+ //show selected locales 
   var visibleLocale = prefs.getCharPref("extensions.zls.visiblemenuitems");
   var showLocale = visibleLocale.split("#");
         
@@ -97,14 +115,15 @@ function zotLocales_load(menu) {
 
         for (iIndex = 0; iIndex < iLen; iIndex++) {
         	
-        	var item = document.getElementById(showLocale[iIndex]);
         	//show selected locales
-    		item.setAttribute("hidden", false);
-    		
-    		if (zoteroLocale == showLocale[iIndex]) {
-    			item.setAttribute("checked", "true");
-    		}
-            
+        	if (showLocale[iIndex] !== '') {
+        	var item = document.getElementById(showLocale[iIndex]);
+	    		item.setAttribute("hidden", false);
+	    		
+	    		if (zoteroLocale == showLocale[iIndex]) {
+	    			item.setAttribute("checked", "true");
+	    		}
+        	}
         }
 	var itemDefault =document.getElementById("defaultZLS");
 	if (zoteroLocale == "") {
