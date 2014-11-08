@@ -1,4 +1,5 @@
-<!ENTITY zls.context.main "Quick Locale Switcher">
+
+<!ENTITY zls.settings.localeexport "Export locale"><!ENTITY zls.context.main "Zotero Locale export Switcher">
 <!ENTITY zls.description "Αλλάξτε άμεσα την ρύθμιση γενικού περιβάλλοντος χρήστη.">
 <!ENTITY zls.createdby "Δημιουργός:">
 <!ENTITY zls.restoredefault "Επαναφορά αρχικών ρυθμίσεων">
@@ -7,7 +8,7 @@
 <!ENTITY zls.askrestartmessage "Οι τοπικές ρυθμίσεις αλλάχτηκαν. Να γίνει επανεκκίνηση ώστε να δείτε τις αλλαγές;">
 <!ENTITY zls.pleasewait "Εφαρμογή νέων τοπικών ρυθμίσεων...">
 <!ENTITY zls.settings "Επιλογές...">
-<!ENTITY zls.settings.title "Επιλογές Quick Locale Switcher">
+<!ENTITY zls.settings.title "Επιλογές Zotero Locale export Switcher">
 <!ENTITY zls.settings.apply "Εφαρμογή">
 <!ENTITY zls.settings.description "Προσθέστε τις προσαρμοσμένες από εσάς τοπικές ρυθμίσεις στο μενού. (π.χ. el-GR-mac ή de-FY)">
 <!ENTITY zls.settings.locale "Τοπικές ρυθμίσεις">
@@ -26,7 +27,7 @@
 <!ENTITY zls.settings.switch.reloadbrowserafterhalswitch "Ανανέωση του τρέχοντος ιστότοπου μετά την αλλαγή της γλώσσας περιεχομένου">
 <!ENTITY zls.settings.restartreload "Επιλογές επανεκκίνησης/ανανέωσης">
 <!ENTITY zls.settings.autorestart.ask "Ερώτηση πριν από την επανεκκίνηση της εφαρμογής">
-<!ENTITY zls.statusbar.main "Τρέχουσα επιλεγμένη τοπική ρύθμιση του Quick Locale Switcher">
+<!ENTITY zls.statusbar.main "Τρέχουσα επιλεγμένη τοπική ρύθμιση του Zotero Locale export Switcher">
 <!ENTITY zls.statusbar.tooltip.content "Περιεχόμενο: &#37;1">
 <!ENTITY zls.statusbar.tooltip.gu "Διασύνδεση χρήστη: &#37;1">
 <!ENTITY zls.useautoswitch.title "Αυτόματη εναλλαγή">
@@ -44,7 +45,7 @@
 <!ENTITY zls-askswitchsettings-title "Αλλαγή των παρακάτω σχετικών τοπικών ρυθμίσεων">
 <!ENTITY zls.visiblemenuitems.search "Αναζήτηση">
 <!ENTITY zls.settings.display "Επιλογές εμφάνισης">
-<!ENTITY zls.settings.display.hide_tools "Απόκρυψη του Quick Locale Switcher από το μενού εργαλείων">
+<!ENTITY zls.settings.display.hide_tools "Απόκρυψη του Zotero Locale export Switcher από το μενού εργαλείων">
 <!ENTITY zls.settings.display.hide_statusbar "Απόκρυψη του εικονιδίου από τη γραμμή κατάστασης">
 <!ENTITY zls.settings.display.statusbarmode "Λειτουργία με εμφάνιση στη γραμμή κατάστασης">
 <!ENTITY zls.settings.display.statusbarmode.icon "Εικονίδιο">

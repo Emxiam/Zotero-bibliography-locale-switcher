@@ -1,4 +1,5 @@
-<!ENTITY zls.context.main "Quick Locale Switcher">
+<!ENTITY zls.settings.localeexport "Export locale">
+<!ENTITY zls.context.main "Zotero Locale export Switcher">
 <!ENTITY zls.description "ایجاد تغییرات سریع در general.useragent.locale">
 <!ENTITY zls.createdby "نویسنده :">
 <!ENTITY zls.restoredefault "تنظیمات پیش فرض">
@@ -7,7 +8,7 @@
 <!ENTITY zls.askrestartmessage "زبان تغییر کرد.آیا فایرفاکس دوباره راه اندازی شود؟">
 <!ENTITY zls.pleasewait "در حال اعمال زبان جدید">
 <!ENTITY zls.settings "تنظیمات...">
-<!ENTITY zls.settings.title "تنظیمات Quick Locale Switcher">
+<!ENTITY zls.settings.title "تنظیمات Zotero Locale export Switcher">
 <!ENTITY zls.settings.apply "اعمال کردن">
 <!ENTITY zls.settings.description "زبان مورد نظر خود را اضافه کنید.(به عنوان مثال de-FY یا en-US-mac)">
 <!ENTITY zls.settings.locale "زبان">

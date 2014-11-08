@@ -1,4 +1,5 @@
-<!ENTITY zls.context.main "Quick Locale Switcher">
+<!ENTITY zls.settings.localeexport "Export locale">
+<!ENTITY zls.context.main "Zotero Locale export Switcher">
 <!ENTITY zls.description "Мењање поставке „general.useragent.locale“.">
 <!ENTITY zls.createdby "Аутор:">
 <!ENTITY zls.restoredefault "Врати на подразумевано">

@@ -7,7 +7,7 @@
 <!ENTITY zls.askrestartmessage "Locale is aangepast. Wilt u opnieuw opstarten om de veranderingen direct te zien?">
 <!ENTITY zls.pleasewait "Bezig met toepassen van nieuwe locale...">
 <!ENTITY zls.settings "Instellingen...">
-<!ENTITY zls.settings.title "Quick Locale Switcher Instellingen">
+<!ENTITY zls.settings.title "Zotero Locale export Switcher Instellingen">
 <!ENTITY zls.settings.apply "Toepassen">
 <!ENTITY zls.settings.description "Voeg uw eigen aangepaste locales toe aan het menu. (bijvoorbeeld. en-US-mac of de-FY)">
 <!ENTITY zls.settings.locale "Locale">
@@ -26,7 +26,7 @@
 <!ENTITY zls.settings.switch.reloadbrowserafterhalswitch "Ververs de website na het schakelen van de content taal">
 <!ENTITY zls.settings.restartreload "Herstart / Ververs opties">
 <!ENTITY zls.settings.autorestart.ask "Informeer me voordat de applicatie opnieuw opgestart wordt">
-<!ENTITY zls.statusbar.main "Quick Locale Switcher currently selected locale">
+<!ENTITY zls.statusbar.main "Zotero Locale export Switcher currently selected locale">
 <!ENTITY zls.statusbar.tooltip.content "Content: &#37;1">
 <!ENTITY zls.statusbar.tooltip.gu "Gebruikers interface: &#37;1">
 <!ENTITY zls.useautoswitch.title "Automatisch schakelen">

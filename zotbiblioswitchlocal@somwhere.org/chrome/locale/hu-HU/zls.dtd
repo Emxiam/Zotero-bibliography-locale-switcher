@@ -1,3 +1,4 @@
+<!ENTITY zls.settings.localeexport "Export locale">
 <!ENTITY zls.context.main "Gyors nyelv váltó">
 <!ENTITY zls.description "A general.useragent.locale beállítás egyszerű módosítása.">
 <!ENTITY zls.createdby "Készítette:">

@@ -1,3 +1,4 @@
+<!ENTITY zls.settings.localeexport "Export locale">
 <!ENTITY zls.context.main "Hitri preklopnik med jeziki">
 <!ENTITY zls.description "Hitro spreminjanje nastavitve general.useragent.locale.">
 <!ENTITY zls.createdby "Avtor:">

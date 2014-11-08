@@ -1,4 +1,4 @@
-<!ENTITY zls.context.main "Quick Locale Switcher">
+<!ENTITY zls.context.main "Zotero Locale export Switcher">
 <!ENTITY zls.description "Hurtigveksler for lokaliseringsrelaterte innstillinger">
 <!ENTITY zls.createdby "Laget av:">
 <!ENTITY zls.restoredefault "Nullstill">
@@ -7,7 +7,7 @@
 <!ENTITY zls.askrestartmessage "Lokalisering endret. Ønsker du å starte nettleseren på nytt?">
 <!ENTITY zls.pleasewait "Endrer lokalisering ...">
 <!ENTITY zls.settings "Innstillinger ...">
-<!ENTITY zls.settings.title "Innstillinger - Quick Locale Switcher">
+<!ENTITY zls.settings.title "Innstillinger - Zotero Locale export Switcher">
 <!ENTITY zls.settings.apply "Bruk">
 <!ENTITY zls.settings.description "Legg til egne lokaliseringer i menyen">
 <!ENTITY zls.settings.locale "Lokalisering">
@@ -26,7 +26,7 @@
 <!ENTITY zls.settings.switch.reloadbrowserafterhalswitch "Oppdater aktiv side etter veksling av innholdsspråk">
 <!ENTITY zls.settings.restartreload "Start på nytt/oppdater innstillinger">
 <!ENTITY zls.settings.autorestart.ask "Vis advarsel før omstart">
-<!ENTITY zls.statusbar.main "Quick Locale Switcher - gjeldende lokalisering">
+<!ENTITY zls.statusbar.main "Zotero Locale export Switcher - gjeldende lokalisering">
 <!ENTITY zls.statusbar.tooltip.content "Innhold: &#37;1">
 <!ENTITY zls.statusbar.tooltip.gu "Brukergrensesnitt: &#37;1">
 <!ENTITY zls.useautoswitch.title "Autoveksling">

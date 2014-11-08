@@ -1,4 +1,5 @@
-<!ENTITY zls.context.main "Quick Locale Switcher">
+<!ENTITY zls.settings.localeexport "Export locale">
+<!ENTITY zls.context.main "Zotero Locale export Switcher">
 <!ENTITY zls.description "Permette di cambiare velocemente il parametro general.useragent.locale">
 <!ENTITY zls.createdby "Creata da:">
 <!ENTITY zls.restoredefault "Ripristina predefinita">
@@ -7,7 +8,7 @@
 <!ENTITY zls.askrestartmessage "Localizzazione cambiata. Riavviare l&apos;applicazione ora per rendere effettive le modifiche?">
 <!ENTITY zls.pleasewait "Applicazione nuova localizzazione…">
 <!ENTITY zls.settings "Opzioni…">
-<!ENTITY zls.settings.title "Opzioni di Quick Locale Switcher">
+<!ENTITY zls.settings.title "Opzioni di Zotero Locale export Switcher">
 <!ENTITY zls.settings.apply "Applica">
 <!ENTITY zls.settings.description "Aggiunta di elementi personalizzati al menu (es: en-US-mac o ja-JP)">
 <!ENTITY zls.settings.locale "Localizzazione">
@@ -26,7 +27,7 @@
 <!ENTITY zls.settings.switch.reloadbrowserafterhalswitch "Ricarica il sito web attuale dopo il cambio della localizzazione">
 <!ENTITY zls.settings.restartreload "Opzioni di riavvio/ricaricamento">
 <!ENTITY zls.settings.autorestart.ask "Avvisa prima di riavviare l&apos;applicazione">
-<!ENTITY zls.statusbar.main "Localizzazione attuale selezionata da Quick Locale Switcher">
+<!ENTITY zls.statusbar.main "Localizzazione attuale selezionata da Zotero Locale export Switcher">
 <!ENTITY zls.statusbar.tooltip.content "- Contenuto: &#37;1">
 <!ENTITY zls.statusbar.tooltip.gu "- Interfaccia utente: &#37;1">
 <!ENTITY zls.useautoswitch.title "Cambio automatico di localizzazione">
@@ -44,7 +45,7 @@
 <!ENTITY zls-askswitchsettings-title "Personalizzazioni da applicare">
 <!ENTITY zls.visiblemenuitems.search "Cerca">
 <!ENTITY zls.settings.display "Aspetto">
-<!ENTITY zls.settings.display.hide_tools "Nascondi la voce &apos;Quick Locale Switcher&apos; nel menu principale &quot;Strumenti&quot;">
+<!ENTITY zls.settings.display.hide_tools "Nascondi la voce &apos;Zotero Locale export Switcher&apos; nel menu principale &quot;Strumenti&quot;">
 <!ENTITY zls.settings.display.hide_statusbar "Nascondi l&apos;icona dell&apos;estensione nella barra di stato">
 <!ENTITY zls.settings.display.statusbarmode "Mostra nella barra di stato">
 <!ENTITY zls.settings.display.statusbarmode.icon "icona">

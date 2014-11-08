@@ -1,3 +1,4 @@
+<!ENTITY zls.settings.localeexport "Export locale">
 <!ENTITY zls.context.main "Greitasis lokalės perjungiklis">
 <!ENTITY zls.description "Greitai pakeičia general.useragent.locale pasirinktį">
 <!ENTITY zls.createdby "Sukūrė:">

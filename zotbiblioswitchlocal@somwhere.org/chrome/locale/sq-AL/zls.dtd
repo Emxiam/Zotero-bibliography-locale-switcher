@@ -1,4 +1,5 @@
-<!ENTITY zls.context.main "Quick Locale Switcher">
+<!ENTITY zls.settings.localeexport "Export locale">
+<!ENTITY zls.context.main "Zotero Locale export Switcher">
 <!ENTITY zls.description "Ndryshoni shpejt parapëlqimin general.useragent.locale.">
 <!ENTITY zls.createdby "Krijuar prej:">
 <!ENTITY zls.restoredefault "Rikthe parazgjedhjen">
@@ -7,7 +8,7 @@
 <!ENTITY zls.askrestartmessage "Vendorja u ndryshua. Do të donit të riniset e të shihni tani ndryshimet?">
 <!ENTITY zls.pleasewait "Po zbatohet vendorja e re...">
 <!ENTITY zls.settings "Mundësi...">
-<!ENTITY zls.settings.title "Mundësi për Quick Locale Switcher">
+<!ENTITY zls.settings.title "Mundësi për Zotero Locale export Switcher">
 <!ENTITY zls.settings.apply "Zbatoje">
 <!ENTITY zls.settings.description "Shtoni te menuja vendoret tuaja. (p.sh. el-GR ose it-IT)">
 <!ENTITY zls.settings.locale "Vendore">
@@ -26,7 +27,7 @@
 <!ENTITY zls.settings.switch.reloadbrowserafterhalswitch "Ringarko site-n web të tanishëm pas ndryshimit të gjuhës së lëndës">
 <!ENTITY zls.settings.restartreload "Rinise / Ringarko mundësitë">
 <!ENTITY zls.settings.autorestart.ask "Sinjalizomë përpara rinisjes së zbatimit">
-<!ENTITY zls.statusbar.main "Vendoret e tanishme të përzgjedhura te Quick Locale Switcher">
+<!ENTITY zls.statusbar.main "Vendoret e tanishme të përzgjedhura te Zotero Locale export Switcher">
 <!ENTITY zls.statusbar.tooltip.content "Lëndë: &#37;1">
 <!ENTITY zls.statusbar.tooltip.gu "Ndërfaqe Përdoruesi: &#37;1">
 <!ENTITY zls.useautoswitch.title "Këmbeje vetvetiu">

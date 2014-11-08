@@ -1,4 +1,5 @@
-<!ENTITY zls.context.main "Quick Locale Switcher">
+<!ENTITY zls.settings.localeexport "Export locale">
+<!ENTITY zls.context.main "Zotero Locale export Switcher">
 <!ENTITY zls.description "Spěšne změnjenje nastajenja general.useragent.locale.">
 <!ENTITY zls.createdby "Wutworjeny wot:">
 <!ENTITY zls.restoredefault "Standard wobnowić">
@@ -7,7 +8,7 @@
 <!ENTITY zls.askrestartmessage "Rěč změnjena. Chceće nětko znowa startować, zo byšće změny widźał?">
 <!ENTITY zls.pleasewait "Nowa rěč so nałožuje...">
 <!ENTITY zls.settings "Opcije...">
-<!ENTITY zls.settings.title "Opcije Quick Locale Switcher">
+<!ENTITY zls.settings.title "Opcije Zotero Locale export Switcher">
 <!ENTITY zls.settings.apply "Nałožić">
 <!ENTITY zls.settings.description "Swójske rěče menijej přidać. (na př. en-US-mac abo de-FY)">
 <!ENTITY zls.settings.locale "Rěč">
@@ -26,7 +27,7 @@
 <!ENTITY zls.settings.switch.reloadbrowserafterhalswitch "Aktualne websydło znowa začitać, po tym zo je so wobsahowa rěč wuměniła">
 <!ENTITY zls.settings.restartreload "Znowa startować/Opcije znowa začitać">
 <!ENTITY zls.settings.autorestart.ask "Warnować, prjedy hač so aplikacija znowa startuje">
-<!ENTITY zls.statusbar.main "Tuchwilu wubrana rěč Quick Locale Switcher">
+<!ENTITY zls.statusbar.main "Tuchwilu wubrana rěč Zotero Locale export Switcher">
 <!ENTITY zls.statusbar.tooltip.content "Wobsah: &#37;1">
 <!ENTITY zls.statusbar.tooltip.gu "Wužiwarski powjerch: &#37;1">
 <!ENTITY zls.useautoswitch.title "Awtomatisce wuměnić">

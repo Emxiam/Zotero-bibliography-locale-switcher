@@ -1,3 +1,4 @@
+<!ENTITY zls.settings.localeexport "Export locale">
 <!ENTITY zls.context.main "言語を変更">
 <!ENTITY zls.description "言語設定を素早く変更するアドオンです。">
 <!ENTITY zls.createdby "作者:">
@@ -7,7 +8,7 @@
 <!ENTITY zls.askrestartmessage "言語を変更しました。変更を適用するために今すぐ再起動しますか?">
 <!ENTITY zls.pleasewait "新しい言語を適用中...">
 <!ENTITY zls.settings "オプション...">
-<!ENTITY zls.settings.title "Quick Locale Switcher オプション">
+<!ENTITY zls.settings.title "Zotero Locale export Switcher オプション">
 <!ENTITY zls.settings.apply "適用">
 <!ENTITY zls.settings.description "追加する言語とラベル (例: en-US-mac、ja-JP-mot) を入力してください。">
 <!ENTITY zls.settings.locale "言語">

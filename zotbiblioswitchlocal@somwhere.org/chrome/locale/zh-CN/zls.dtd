@@ -1,4 +1,5 @@
-<!ENTITY zls.context.main "Quick Locale Switcher">
+<!ENTITY zls.settings.localeexport "Export locale">
+<!ENTITY zls.context.main "Zotero Locale export Switcher">
 <!ENTITY zls.description "快速修改 general.useragent.locale 的参数值。">
 <!ENTITY zls.createdby "作者:">
 <!ENTITY zls.restoredefault "恢复默认设置">
@@ -7,7 +8,7 @@
 <!ENTITY zls.askrestartmessage "本地语言已经修改。是否重新启动浏览器以看到变化?">
 <!ENTITY zls.pleasewait "正在应用新的本地语言...">
 <!ENTITY zls.settings "选项...">
-<!ENTITY zls.settings.title "Quick Locale Switcher 选项">
+<!ENTITY zls.settings.title "Zotero Locale export Switcher 选项">
 <!ENTITY zls.settings.apply "应用">
 <!ENTITY zls.settings.description "在菜单中添加自定义的本地语言。(e.g. en-US-mac or ja-JPM)">
 <!ENTITY zls.settings.locale "本地语言">
@@ -26,7 +27,7 @@
 <!ENTITY zls.settings.switch.reloadbrowserafterhalswitch "切换内容语言后自动重新载入当前网站">
 <!ENTITY zls.settings.restartreload "重新启动/重新载入选项">
 <!ENTITY zls.settings.autorestart.ask "重新启动应用程序前警告我">
-<!ENTITY zls.statusbar.main "Quick Locale Switcher 当前已选择本地语言">
+<!ENTITY zls.statusbar.main "Zotero Locale export Switcher 当前已选择本地语言">
 <!ENTITY zls.statusbar.tooltip.content "内容：&#37;1">
 <!ENTITY zls.statusbar.tooltip.gu "用户界面：&#37;1">
 <!ENTITY zls.useautoswitch.title "自动切换">

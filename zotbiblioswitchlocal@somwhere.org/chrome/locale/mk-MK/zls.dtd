@@ -1,4 +1,5 @@
-<!ENTITY zls.context.main "Quick Locale Switcher">
+<!ENTITY zls.settings.localeexport "Export locale">
+<!ENTITY zls.context.main "Zotero Locale export Switcher">
 <!ENTITY zls.description "Брзо промени ги general.useragent.locale параметрите.">
 <!ENTITY zls.createdby "Креирано од:">
 <!ENTITY zls.restoredefault "Врати стандардни">
@@ -7,7 +8,7 @@
 <!ENTITY zls.askrestartmessage "Локализацијата е променета. Сакате ли да рестартирате сега за да ги видите промените?">
 <!ENTITY zls.pleasewait "Применување на нова локализација...">
 <!ENTITY zls.settings "Опции...">
-<!ENTITY zls.settings.title "Quick Locale Switcher Опции">
+<!ENTITY zls.settings.title "Zotero Locale export Switcher Опции">
 <!ENTITY zls.settings.apply "Примени">
 <!ENTITY zls.settings.description "Додадете ги вашите сопствени локализации во менито. (на пр. en-US-mac or de-FY)">
 <!ENTITY zls.settings.locale "Локализација">
@@ -26,7 +27,7 @@
 <!ENTITY zls.settings.switch.reloadbrowserafterhalswitch "Превчитај ја моменталната веб страница после префрлување на јазикот на содржината">
 <!ENTITY zls.settings.restartreload "Рестартирај / Превчитај опции">
 <!ENTITY zls.settings.autorestart.ask "Предупреди ме пред рестартирање на апликацијата">
-<!ENTITY zls.statusbar.main "Quick Locale Switcher моментално избрана локализација">
+<!ENTITY zls.statusbar.main "Zotero Locale export Switcher моментално избрана локализација">
 <!ENTITY zls.statusbar.tooltip.content "Содржина: &amp;1">
 <!ENTITY zls.statusbar.tooltip.gu "Кориснички Интерфејс: &#37;1">
 <!ENTITY zls.useautoswitch.title "Автоматски префрли">

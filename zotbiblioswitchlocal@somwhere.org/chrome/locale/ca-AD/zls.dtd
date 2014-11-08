@@ -1,4 +1,5 @@
-<!ENTITY zls.context.main "Quick Locale Switcher">
+<!ENTITY zls.settings.localeexport "Export locale">
+<!ENTITY zls.context.main "Zotero Locale export Switcher">
 <!ENTITY zls.description "Canvia ràpidament la preferència general.useragent.locale">
 <!ENTITY zls.createdby "Creat per:">
 <!ENTITY zls.restoredefault "Restaura els valors per defecte">
@@ -7,7 +8,7 @@
 <!ENTITY zls.askrestartmessage "S'ha canviat la configuració d'idioma. Voleu reiniciar el navegador ara per a veure'n els canvis?">
 <!ENTITY zls.pleasewait "S'està aplicant la nova configuració d'idioma…">
 <!ENTITY zls.settings "Opcions...">
-<!ENTITY zls.settings.title "Opcions del Quick Locale Switcher">
+<!ENTITY zls.settings.title "Opcions del Zotero Locale export Switcher">
 <!ENTITY zls.settings.apply "Aplica">
 <!ENTITY zls.settings.description "Afegeix configuracions d'idioma personalitzades al menú (p. ex. en-US-mac o de-FY)">
 <!ENTITY zls.settings.locale "Configuració d'idioma">
@@ -26,7 +27,7 @@
 <!ENTITY zls.settings.switch.reloadbrowserafterhalswitch "Recarrega la pàgina web després de canviar la llengua de contingut">
 <!ENTITY zls.settings.restartreload "Opcions de reinici / recàrrega">
 <!ENTITY zls.settings.autorestart.ask "Avisa'm abans de reiniciar l'aplicació">
-<!ENTITY zls.statusbar.main "Configuració d'idioma seleccionada actualment pel Quick Locale Switcher">
+<!ENTITY zls.statusbar.main "Configuració d'idioma seleccionada actualment pel Zotero Locale export Switcher">
 <!ENTITY zls.statusbar.tooltip.content "Contingut: &#37;1">
 <!ENTITY zls.statusbar.tooltip.gu "Interfície d'usuari: &#37;1">
 <!ENTITY zls.useautoswitch.title "Canvia automàticament">

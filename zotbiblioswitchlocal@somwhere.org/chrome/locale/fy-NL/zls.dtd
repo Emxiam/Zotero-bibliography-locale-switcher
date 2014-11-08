@@ -1,4 +1,5 @@
-<!ENTITY zls.context.main "Quick Locale Switcher">
+<!ENTITY zls.settings.localeexport "Export locale">
+<!ENTITY zls.context.main "Zotero Locale export Switcher">
 <!ENTITY zls.description "Pas fluch de general.useragent.locale-ynstelling oan.">
 <!ENTITY zls.createdby "Makke troch:">
 <!ENTITY zls.restoredefault "Standert weromsette">
@@ -7,7 +8,7 @@
 <!ENTITY zls.askrestartmessage "Taal is oanpast. Wolle jo op &apos;e nij opstarte om de feroarings daliks te sjen?">
 <!ENTITY zls.pleasewait "Dwaande mei tapassen fan nije taal ...">
 <!ENTITY zls.settings "Opsjes...">
-<!ENTITY zls.settings.title "Quick Locale Switcher Opsjes">
+<!ENTITY zls.settings.title "Zotero Locale export Switcher Opsjes">
 <!ENTITY zls.settings.apply "Tapasse">
 <!ENTITY zls.settings.description "Foegje jo eigen oanpaste talen ta oan it menu. (bgl. en-US-mac of de-FY)">
 <!ENTITY zls.settings.locale "Taal">
@@ -26,7 +27,7 @@
 <!ENTITY zls.settings.switch.reloadbrowserafterhalswitch "Laad de aktuele webstee op &apos;e nij nei it skeakeljen fan de taalynhâld">
 <!ENTITY zls.settings.restartreload "Werstart/Werlaad opsjes">
 <!ENTITY zls.settings.autorestart.ask "Warskôgje my foar it op &apos;e nij starten fan de applikaasje">
-<!ENTITY zls.statusbar.main "Quick Locale Switcher aktueel selektearre taal">
+<!ENTITY zls.statusbar.main "Zotero Locale export Switcher aktueel selektearre taal">
 <!ENTITY zls.statusbar.tooltip.content "Ynhâld:&#37;">
 <!ENTITY zls.statusbar.tooltip.gu "Brûkers Uterlik: &#37;1">
 <!ENTITY zls.useautoswitch.title "Automatysk skeakelje">

@@ -1,4 +1,5 @@
-<!ENTITY zls.context.main "Quick Locale Switcher">
+<!ENTITY zls.settings.localeexport "Export locale">
+<!ENTITY zls.context.main "Zotero Locale export Switcher">
 <!ENTITY zls.description "快速地改變 general.useragent.locale 的偏好設定。">
 <!ENTITY zls.createdby "作者:">
 <!ENTITY zls.restoredefault "恢復為預設地區語言檔案">
@@ -7,7 +8,7 @@
 <!ENTITY zls.askrestartmessage "地區語言檔案已改變。請問你是否想要馬上重新啟動瀏覽器以看見該變化呢？">
 <!ENTITY zls.pleasewait "正在套用新的地區語言檔案中...">
 <!ENTITY zls.settings "選項...">
-<!ENTITY zls.settings.title "Quick Locale Switcher - 快速地區語言檔案切換器選項">
+<!ENTITY zls.settings.title "Zotero Locale export Switcher - 快速地區語言檔案切換器選項">
 <!ENTITY zls.settings.apply "套用">
 <!ENTITY zls.settings.description "將你所自訂的地區語言檔案加入至選單中。（例如 en-US-mac 或是 de-FY ）">
 <!ENTITY zls.settings.locale "地區語言檔案">

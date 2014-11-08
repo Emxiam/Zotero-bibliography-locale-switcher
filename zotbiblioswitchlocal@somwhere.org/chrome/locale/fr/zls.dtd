@@ -1,4 +1,5 @@
-<!ENTITY zls.context.main "Quick Locale Switcher">
+<!ENTITY zls.settings.localeexport "Langue d'export">
+<!ENTITY zls.context.main "Zotero Locale export Switcher">
 <!ENTITY zls.description "Change facilement la langue de l\'interface (general.useragent.locale), dans le menu Outils .">
 <!ENTITY zls.createdby "Créée par :">
 <!ENTITY zls.restoredefault "Rétablir la langue par défaut">
@@ -26,7 +27,7 @@
 <!ENTITY zls.settings.switch.reloadbrowserafterhalswitch "Recharger le site Web actuel après avoir changé une langue">
 <!ENTITY zls.settings.restartreload "Options de redémarrage / rechargement">
 <!ENTITY zls.settings.autorestart.ask "M\'avertir avant de redémarrer l\'application">
-<!ENTITY zls.statusbar.main "Langue actuellement choisie avec Quick Locale Switcher">
+<!ENTITY zls.statusbar.main "Langue actuellement choisie avec Zotero Locale export Switcher">
 <!ENTITY zls.statusbar.tooltip.content "Contenu de page Web : &#37;1">
 <!ENTITY zls.statusbar.tooltip.gu "Interface utilisateur : &#37;1">
 <!ENTITY zls.useautoswitch.title "Changement automatisé">
@@ -44,7 +45,7 @@
 <!ENTITY zls-askswitchsettings-title "Changer les paramétrages pour les langues suivantes">
 <!ENTITY zls.visiblemenuitems.search "Chercher">
 <!ENTITY zls.settings.display "Options d\'affichage">
-<!ENTITY zls.settings.display.hide_tools "Cacher l\'élément « Quick Locale Switcher » du menu Outils">
+<!ENTITY zls.settings.display.hide_tools "Cacher l\'élément « Zotero Locale export Switcher » du menu Outils">
 <!ENTITY zls.settings.display.hide_statusbar "Cacher l\'icône QLS (drapeau) de la barre d\'état">
 <!ENTITY zls.settings.display.statusbarmode "Mode d\'affichage pour la barre d\'état">
 <!ENTITY zls.settings.display.statusbarmode.icon "Icône">

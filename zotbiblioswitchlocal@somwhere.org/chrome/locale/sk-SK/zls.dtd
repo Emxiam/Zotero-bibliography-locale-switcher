@@ -1,4 +1,5 @@
-<!ENTITY zls.context.main "Quick Locale Switcher">
+<!ENTITY zls.settings.localeexport "Export locale">
+<!ENTITY zls.context.main "Zotero Locale export Switcher">
 <!ENTITY zls.description "Umožňuje rýchlu a jednoduchú zmenu nastavenia general.useragent.locale.">
 <!ENTITY zls.createdby "Autor:">
 <!ENTITY zls.restoredefault "Obnoviť predvolené">
@@ -7,7 +8,7 @@
 <!ENTITY zls.askrestartmessage "Jazyk zmenený. Chcete teraz reštartovať prehliadač, aby sa vykonali zmeny?">
 <!ENTITY zls.pleasewait "Nastavovanie nového jazyka...">
 <!ENTITY zls.settings "Nastavenia...">
-<!ENTITY zls.settings.title "Nastavenia pre Quick Locale Switcher">
+<!ENTITY zls.settings.title "Nastavenia pre Zotero Locale export Switcher">
 <!ENTITY zls.settings.apply "Použiť">
 <!ENTITY zls.settings.description "Pridať do ponuky vlastné jazyky. (napr. en-US-mac alebo ja-JPM)">
 <!ENTITY zls.settings.locale "Jazyk">
@@ -26,7 +27,7 @@
 <!ENTITY zls.settings.switch.reloadbrowserafterhalswitch "Po zmene jazyka obsahu znovu načítať aktuálnu stránku">
 <!ENTITY zls.settings.restartreload "Možnosti voľby Reštartovať / Znova načítať">
 <!ENTITY zls.settings.autorestart.ask "Upozorniť ma pred reštartovaním aplikácie">
-<!ENTITY zls.statusbar.main "Jazyk vybraný rozšírením Quick Locale Switcher">
+<!ENTITY zls.statusbar.main "Jazyk vybraný rozšírením Zotero Locale export Switcher">
 <!ENTITY zls.statusbar.tooltip.content "Obsah: &#37;1">
 <!ENTITY zls.statusbar.tooltip.gu "Používateľské rozhranie: &#37;1">
 <!ENTITY zls.useautoswitch.title "Automaticky prepnúť">

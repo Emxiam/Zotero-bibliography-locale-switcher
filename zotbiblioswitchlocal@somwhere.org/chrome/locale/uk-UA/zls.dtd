@@ -1,4 +1,5 @@
-<!ENTITY zls.context.main "Quick Locale Switcher">
+<!ENTITY zls.settings.localeexport "Export locale">
+<!ENTITY zls.context.main "Zotero Locale export Switcher">
 <!ENTITY zls.description "Дозволяє швидко змінювати general.useragent.locale.">
 <!ENTITY zls.createdby "Автор:">
 <!ENTITY zls.restoredefault "Відновити стандартні значення">
@@ -7,7 +8,7 @@
 <!ENTITY zls.askrestartmessage "Локаль змінено. Чи Ви хочете перезавантажити програму?">
 <!ENTITY zls.pleasewait "Відбувається процес зміни локалі...">
 <!ENTITY zls.settings "Параметри…">
-<!ENTITY zls.settings.title "Параметри Quick Locale Switcher">
+<!ENTITY zls.settings.title "Параметри Zotero Locale export Switcher">
 <!ENTITY zls.settings.apply "Застосувати">
 <!ENTITY zls.settings.description "Додайте Вашу особисту локаль до меню. (наприклад, en-US-mac або de-FY)">
 <!ENTITY zls.settings.locale "Локаль">
@@ -26,7 +27,7 @@
 <!ENTITY zls.settings.switch.reloadbrowserafterhalswitch "Перезавантажувати поточну сторінку після зміни мови вмісту">
 <!ENTITY zls.settings.restartreload "Параметри перезавантаження">
 <!ENTITY zls.settings.autorestart.ask "Попереджати при перезавантаженні програми">
-<!ENTITY zls.statusbar.main "Поточна локаль Quick Locale Switcher">
+<!ENTITY zls.statusbar.main "Поточна локаль Zotero Locale export Switcher">
 <!ENTITY zls.statusbar.tooltip.content "Вміст: &#37;1">
 <!ENTITY zls.statusbar.tooltip.gu "Інтерфейс користувача: &#37;1">
 <!ENTITY zls.useautoswitch.title "Автоматична зміна">

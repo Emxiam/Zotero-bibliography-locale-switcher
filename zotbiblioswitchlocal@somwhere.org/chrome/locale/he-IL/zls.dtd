@@ -1,4 +1,5 @@
-<!ENTITY zls.context.main "Quick Locale Switcher">
+<!ENTITY zls.settings.localeexport "Export locale">
+<!ENTITY zls.context.main "Zotero Locale export Switcher">
 <!ENTITY zls.description "משנה במהירות את עדיפות general.useragent.locale (תצורת השפה).">
 <!ENTITY zls.createdby "נוצר על-ידי:">
 <!ENTITY zls.restoredefault "שחזר ברירת מחדל">
@@ -7,7 +8,7 @@
 <!ENTITY zls.askrestartmessage "תצורת שפה שונתה. לאתחל כדי לראות השינויים כעת?">
 <!ENTITY zls.pleasewait "מחיל תצורת שפה חדשה...">
 <!ENTITY zls.settings "אפשרויות...">
-<!ENTITY zls.settings.title "אפשרויות Quick Locale Switcher">
+<!ENTITY zls.settings.title "אפשרויות Zotero Locale export Switcher">
 <!ENTITY zls.settings.apply "החל">
 <!ENTITY zls.settings.description "הוספת תצורות שפה מותאמות אישית לתפריט. (e.g. en-US-mac או de-FY)">
 <!ENTITY zls.settings.locale "תצורת שפה">
@@ -26,7 +27,7 @@
 <!ENTITY zls.settings.switch.reloadbrowserafterhalswitch "רענן האתר הנוכחי לאחר שינוי שפת התוכן">
 <!ENTITY zls.settings.restartreload "אתחל/רענן אפשרויות">
 <!ENTITY zls.settings.autorestart.ask "התרה לפני אתחול היישום">
-<!ENTITY zls.statusbar.main "Quick Locale Switcher בוחר כרגע תצורת שפה">
+<!ENTITY zls.statusbar.main "Zotero Locale export Switcher בוחר כרגע תצורת שפה">
 <!ENTITY zls.statusbar.tooltip.content "תוכן: &#37;1">
 <!ENTITY zls.statusbar.tooltip.gu "ממשק משתמש: &#37;1">
 <!ENTITY zls.useautoswitch.title "החלפה-אוטומטית">

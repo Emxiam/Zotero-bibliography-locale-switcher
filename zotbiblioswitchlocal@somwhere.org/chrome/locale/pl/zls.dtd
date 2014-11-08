@@ -1,4 +1,5 @@
-<!ENTITY zls.context.main "Quick Locale Switcher">
+<!ENTITY zls.settings.localeexport "Export locale">
+<!ENTITY zls.context.main "Zotero Locale export Switcher">
 <!ENTITY zls.description "Szybkie przełączanie pomiędzy lokalizacjami aplikacji">
 <!ENTITY zls.createdby "Autor:">
 <!ENTITY zls.restoredefault "Domyślna">
@@ -7,7 +8,7 @@
 <!ENTITY zls.askrestartmessage "Lokalizacja zmieniona. Czy chcesz teraz ponownie uruchomić przeglądarkę?">
 <!ENTITY zls.pleasewait "Trwa zmiana lokalizacji…">
 <!ENTITY zls.settings "Ustawienia">
-<!ENTITY zls.settings.title "Quick Locale Switcher - ustawienia">
+<!ENTITY zls.settings.title "Zotero Locale export Switcher - ustawienia">
 <!ENTITY zls.settings.apply "Zastosuj">
 <!ENTITY zls.settings.description "Dodaj własną lokalizację do menu (np: en-US-mac lub ja-JPM)">
 <!ENTITY zls.settings.locale "Lokalizacja">
@@ -44,7 +45,7 @@
 <!ENTITY zls-askswitchsettings-title "Podczas zmiany lokalizacji zmień następujące ustawienia:">
 <!ENTITY zls.visiblemenuitems.search "Szukaj">
 <!ENTITY zls.settings.display "Opcje wyświetlania">
-<!ENTITY zls.settings.display.hide_tools "Nie wyświetlaj elementu „Quick Locale Switcher” w menu „Narzędzia”">
+<!ENTITY zls.settings.display.hide_tools "Nie wyświetlaj elementu „Zotero Locale export Switcher” w menu „Narzędzia”">
 <!ENTITY zls.settings.display.hide_statusbar "Nie wyświetlaj ikony na pasku stanu">
 <!ENTITY zls.settings.display.statusbarmode "Tryb wyświetlania na pasku stanu">
 <!ENTITY zls.settings.display.statusbarmode.icon "Ikona">

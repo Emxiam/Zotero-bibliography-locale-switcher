@@ -1,4 +1,5 @@
-<!ENTITY zls.context.main "Quick Locale Switcher">
+<!ENTITY zls.settings.localeexport "Export locale">
+<!ENTITY zls.context.main "Zotero Locale export Switcher">
 <!ENTITY zls.description "Ändra general.useragent.locale-inställningen på ett kick.">
 <!ENTITY zls.createdby "Skapat av:">
 <!ENTITY zls.restoredefault "Återställ standard">
@@ -7,7 +8,7 @@
 <!ENTITY zls.askrestartmessage "Språkkonventionen har ändrats. Vill du starta om din webbläsare nu för att se ändringarna?">
 <!ENTITY zls.pleasewait "Tillämpar ny språkkonvention…">
 <!ENTITY zls.settings "Inställningar…">
-<!ENTITY zls.settings.title "Inställningar för Quick Locale Switcher">
+<!ENTITY zls.settings.title "Inställningar för Zotero Locale export Switcher">
 <!ENTITY zls.settings.apply "Tillämpa">
 <!ENTITY zls.settings.description "Lägg till egna språkkonventioner i menyn (t.ex. sv-SE-mac eller yi-SE).">
 <!ENTITY zls.settings.locale "Språkkonvention">
@@ -26,7 +27,7 @@
 <!ENTITY zls.settings.switch.reloadbrowserafterhalswitch "Uppdatera den aktuella webbplatsen efter att sidinnehållets språk har ändrats">
 <!ENTITY zls.settings.restartreload "Omstart/Uppdatering av sida">
 <!ENTITY zls.settings.autorestart.ask "Varna mig innan programmet startas om">
-<!ENTITY zls.statusbar.main "Quick Locale Switcher - aktuell språkkonvention">
+<!ENTITY zls.statusbar.main "Zotero Locale export Switcher - aktuell språkkonvention">
 <!ENTITY zls.statusbar.tooltip.content "Innehåll: &#37;1">
 <!ENTITY zls.statusbar.tooltip.gu "Användargränssnitt: &#37;1">
 <!ENTITY zls.useautoswitch.title "Automatiska byten">

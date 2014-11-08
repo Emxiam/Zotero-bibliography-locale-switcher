@@ -1,3 +1,4 @@
+<!ENTITY zls.settings.localeexport "Export locale">
 <!ENTITY zls.context.main "Nopea kieliasetusten vaihto">
 <!ENTITY zls.description "Vaihda nopeasti &quot;general.useragent.locale&quot; -asetusta">
 <!ENTITY zls.createdby "Tekijä:">

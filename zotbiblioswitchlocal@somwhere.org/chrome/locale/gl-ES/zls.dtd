@@ -1,3 +1,4 @@
+<!ENTITY zls.settings.localeexport "Export locale">
 <!ENTITY zls.context.main "Modificador Rápido de Localización">
 <!ENTITY zls.description "Muda de xeito rápido a preferencia de general.useragent.locale.">
 <!ENTITY zls.createdby "Creado por:">
@@ -26,7 +27,7 @@
 <!ENTITY zls.settings.switch.reloadbrowserafterhalswitch "Recargar o sitio web actual despois de cambiar a lingua do contido">
 <!ENTITY zls.settings.restartreload "Opcións de reinicio / recarga">
 <!ENTITY zls.settings.autorestart.ask "Avisarme antes de reiniciar a aplicación">
-<!ENTITY zls.statusbar.main "Localización seleccionada actualmente en Quick Locale Switcher">
+<!ENTITY zls.statusbar.main "Localización seleccionada actualmente en Zotero Locale export Switcher">
 <!ENTITY zls.statusbar.tooltip.content "Contido: &#37;1">
 <!ENTITY zls.statusbar.tooltip.gu "Interface de usuario: &#37;1">
 <!ENTITY zls.useautoswitch.title "Cambiar automaticamente">

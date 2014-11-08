@@ -1,4 +1,5 @@
-<!ENTITY zls.context.main "Quick Locale Switcher">
+<!ENTITY zls.settings.localeexport "Export locale">
+<!ENTITY zls.context.main "Zotero Locale export Switcher">
 <!ENTITY zls.description "Hurtigt skift af general.useragent.locale præferencen.">
 <!ENTITY zls.createdby "Skabt af:">
 <!ENTITY zls.restoredefault "Genetabler standard">
@@ -7,7 +8,7 @@
 <!ENTITY zls.askrestartmessage "Sprogindstilling ændret. Vil du genstarte for at se ændringerne nu?">
 <!ENTITY zls.pleasewait "Tilføjer nyt sprog...">
 <!ENTITY zls.settings "Indstillinger...">
-<!ENTITY zls.settings.title "Quick Locale Switcher indstillinger">
+<!ENTITY zls.settings.title "Zotero Locale export Switcher indstillinger">
 <!ENTITY zls.settings.apply "Anvend">
 <!ENTITY zls.settings.description "Tilføj dine egne brugerdefinerede oversættelser til menuen (f.eks. en-US-mac eller ja-JPM)">
 <!ENTITY zls.settings.locale "Oversættelse">
@@ -26,7 +27,7 @@
 <!ENTITY zls.settings.switch.reloadbrowserafterhalswitch "Genindlæs nuværende websted efter skift af indholdssproget">
 <!ENTITY zls.settings.restartreload "Genstart / genindlæs indstillinger">
 <!ENTITY zls.settings.autorestart.ask "Advar mig før genstart af applikationen">
-<!ENTITY zls.statusbar.main "Quick Locale Switcher nuværende valgte sprog">
+<!ENTITY zls.statusbar.main "Zotero Locale export Switcher nuværende valgte sprog">
 <!ENTITY zls.statusbar.tooltip.content "Indhold: &#37;1">
 <!ENTITY zls.statusbar.tooltip.gu "Brugergrænseflade: &#37;1">
 <!ENTITY zls.useautoswitch.title "Skift automatisk">

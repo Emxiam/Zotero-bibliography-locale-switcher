@@ -1,4 +1,5 @@
-<!ENTITY zls.context.main "Quick Locale Switcher">
+<!ENTITY zls.settings.localeexport "Export locale">
+<!ENTITY zls.context.main "Zotero Locale export Switcher">
 <!ENTITY zls.description "Breyta general.useragent.locale stillingu.">
 <!ENTITY zls.createdby "Höfundur:">
 <!ENTITY zls.restoredefault "Virkja sjálfgefið tungumál">
@@ -7,7 +8,7 @@
 <!ENTITY zls.askrestartmessage "Tungumáli breytt. Viltu endurræsa til að sjá breytingar strax?">
 <!ENTITY zls.pleasewait "Geri nýtt tungumál virkt...">
 <!ENTITY zls.settings "Stillingar...">
-<!ENTITY zls.settings.title "Quick Locale Switcher Stillingar">
+<!ENTITY zls.settings.title "Zotero Locale export Switcher Stillingar">
 <!ENTITY zls.settings.apply "Virkja">
 <!ENTITY zls.settings.description "Bæta við eigin tungumálum í valmynd. (t.d en-US-mac eða de-FY)">
 <!ENTITY zls.settings.locale "Tungumál">

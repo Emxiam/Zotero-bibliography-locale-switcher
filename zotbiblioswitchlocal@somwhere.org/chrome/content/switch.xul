@@ -36,7 +36,7 @@ the terms of any one of the MPL, the GPL or the LGPL.
 
    <menupopup id="zotero-tb-actions-popup">
     <menu id="zotLocales_menu"
-          label="Language"
+          label="&zls.settings.localeexport;"
           insertbefore="zotero-tb-actions-import">
       <menupopup id="zotLocales_popup" onpopupshowing="zotLocales_load(this);" >
       	<menuitem id="defaultZLS" type="radio" ccode="" label="&zls.restoredefault;" oncommand="zotLocales_switch(this.getAttribute('ccode'));" />

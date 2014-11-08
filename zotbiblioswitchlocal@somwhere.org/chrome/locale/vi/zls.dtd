@@ -1,4 +1,5 @@
-<!ENTITY zls.context.main "Quick Locale Switcher">
+<!ENTITY zls.settings.localeexport "Export locale">
+<!ENTITY zls.context.main "Zotero Locale export Switcher">
 <!ENTITY zls.description "Thay đổi nhanh chóng general.useragent.locale">
 <!ENTITY zls.createdby "Tạo ra bởi:">
 <!ENTITY zls.restoredefault "Khôi phục mặc định">
@@ -7,7 +8,7 @@
 <!ENTITY zls.askrestartmessage "Tên bản địa đã được thay đổi. Bây giờ bạn có muốn khởi động lại để xem các thay đổi đó không?">
 <!ENTITY zls.pleasewait "Áp dụng tên bản địa mới...">
 <!ENTITY zls.settings "Tùy chọn...">
-<!ENTITY zls.settings.title "Tùy chọn Quick Locale Switcher">
+<!ENTITY zls.settings.title "Tùy chọn Zotero Locale export Switcher">
 <!ENTITY zls.settings.apply "Áp dụng">
 <!ENTITY zls.settings.description "Thêm tên bản địa tùy biến của bạn vào trình đơn. (vd. en-US-mac hay de-FY)">
 <!ENTITY zls.settings.locale "Bản địa">
@@ -26,7 +27,7 @@
 <!ENTITY zls.settings.switch.reloadbrowserafterhalswitch "Tải lại trang web hiện tại sau khi chuyển ngôn ngữ">
 <!ENTITY zls.settings.restartreload "Tùy chọn Khởi động lại / Tải lại">
 <!ENTITY zls.settings.autorestart.ask "Cảnh báo tôi trước khi khởi động lại chương trình">
-<!ENTITY zls.statusbar.main "Tên bản địa hiện tại của Quick Locale Switcher">
+<!ENTITY zls.statusbar.main "Tên bản địa hiện tại của Zotero Locale export Switcher">
 <!ENTITY zls.statusbar.tooltip.content "Nội dung: &#37;1">
 <!ENTITY zls.statusbar.tooltip.gu "Giao diện Người dùng: &#37;1">
 <!ENTITY zls.useautoswitch.title "Tự động chuyển">

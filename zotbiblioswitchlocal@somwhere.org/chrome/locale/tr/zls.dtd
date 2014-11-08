@@ -1,4 +1,5 @@
-<!ENTITY zls.context.main "Quick Locale Switcher">
+<!ENTITY zls.settings.localeexport "Export locale">
+<!ENTITY zls.context.main "Zotero Locale export Switcher">
 <!ENTITY zls.description "Kullanıcı arabirimi yerel ayarını hızlıca değiştirin.">
 <!ENTITY zls.createdby "Hazırlayan:">
 <!ENTITY zls.restoredefault "Öntanımlı ayarları geri yükle">
@@ -7,7 +8,7 @@
 <!ENTITY zls.askrestartmessage "Yerel ayarlar değişti. Değişiklikleri görmek için şimdi yeniden başlatmak ister misiniz?">
 <!ENTITY zls.pleasewait "Yeni yerel ayarlar uygulanıyor...">
 <!ENTITY zls.settings "Tercihler...">
-<!ENTITY zls.settings.title "Quick Locale Switcher Tercihleri">
+<!ENTITY zls.settings.title "Zotero Locale export Switcher Tercihleri">
 <!ENTITY zls.settings.apply "Uygula">
 <!ENTITY zls.settings.description "Kullanıcı tanımlı dil ayarlarını menüye ekle (örn.: tr-TR, en-US-mac veya de-DE)">
 <!ENTITY zls.settings.locale "Diller">
@@ -26,7 +27,7 @@
 <!ENTITY zls.settings.switch.reloadbrowserafterhalswitch "Reload the current website after switching the content language">
 <!ENTITY zls.settings.restartreload "Restart / Reload options">
 <!ENTITY zls.settings.autorestart.ask "Uygulama tekrar başlatılınca uyar">
-<!ENTITY zls.statusbar.main "Quick Locale Switcher currently selected locale">
+<!ENTITY zls.statusbar.main "Zotero Locale export Switcher currently selected locale">
 <!ENTITY zls.statusbar.tooltip.content "Content: &#37;1">
 <!ENTITY zls.statusbar.tooltip.gu "User Interface: &#37;1">
 <!ENTITY zls.useautoswitch.title "Automatically switch">

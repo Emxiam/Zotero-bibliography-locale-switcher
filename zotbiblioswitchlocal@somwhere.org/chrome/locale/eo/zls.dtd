@@ -1,4 +1,5 @@
-<!ENTITY zls.context.main "Quick Locale Switcher">
+<!ENTITY zls.settings.localeexport "Export locale">
+<!ENTITY zls.context.main "Zotero Locale export Switcher">
 <!ENTITY zls.description "Rapide ŝanĝi la agordon general.useragent.locale.">
 <!ENTITY zls.createdby "Kreita de:">
 <!ENTITY zls.restoredefault "Restaŭri defaŭlton">
@@ -7,7 +8,7 @@
 <!ENTITY zls.askrestartmessage "Lokaĵaro ŝanĝita. Ĉu vi volas restartigi por vidi la ŝanĝojn nun?">
 <!ENTITY zls.pleasewait "Nova lokaĵaro aplikiĝas...">
 <!ENTITY zls.settings "Opcioj...">
-<!ENTITY zls.settings.title "Opcioj de Quick Locale Switcher">
+<!ENTITY zls.settings.title "Opcioj de Zotero Locale export Switcher">
 <!ENTITY zls.settings.apply "Apliki">
 <!ENTITY zls.settings.description "Aldonu viajn proprajn lokaĵarojn al la menuo. (ekz. en-US-mac aŭ de-FY)">
 <!ENTITY zls.settings.locale "Lokaĵaro">
@@ -26,7 +27,7 @@
 <!ENTITY zls.settings.switch.reloadbrowserafterhalswitch "Reŝargi aktualan retejon post ŝaltado de la enhava lingvo">
 <!ENTITY zls.settings.restartreload "Restartigi / Reŝargi opciojn">
 <!ENTITY zls.settings.autorestart.ask "Averti antaŭ restartigo de la aplikaĵo">
-<!ENTITY zls.statusbar.main "Aktuale elektita lokaĵaro de Quick Locale Switcher">
+<!ENTITY zls.statusbar.main "Aktuale elektita lokaĵaro de Zotero Locale export Switcher">
 <!ENTITY zls.statusbar.tooltip.content "Enhavo: &#37;1">
 <!ENTITY zls.statusbar.tooltip.gu "Uzantinferfaco: &#37;1">
 <!ENTITY zls.useautoswitch.title "Aŭtomate ŝalti">

@@ -1,4 +1,5 @@
-<!ENTITY zls.context.main "Quick Locale Switcher">
+<!ENTITY zls.settings.localeexport "Export locale">
+<!ENTITY zls.context.main "Zotero Locale export Switcher">
 <!ENTITY zls.description "Schimbă rapid opţiunea general.useragent.locale.">
 <!ENTITY zls.createdby "Autor:">
 <!ENTITY zls.restoredefault "Localizare implicită">
@@ -7,7 +8,7 @@
 <!ENTITY zls.askrestartmessage "Localizarea a fost schimbată. Doriți să reporniți navigatorul, pentru a se folosi noua localizare?">
 <!ENTITY zls.pleasewait "Se schimbă localizarea...">
 <!ENTITY zls.settings "Opţiuni...">
-<!ENTITY zls.settings.title "Opţiuni Quick Locale Switcher">
+<!ENTITY zls.settings.title "Opţiuni Zotero Locale export Switcher">
 <!ENTITY zls.settings.apply "Execută">
 <!ENTITY zls.settings.description "Includeți în meniu alte localizări (de ex. en-US-mac sau de-FY)">
 <!ENTITY zls.settings.locale "Localizare">
@@ -26,7 +27,7 @@
 <!ENTITY zls.settings.switch.reloadbrowserafterhalswitch "Reîncarcă saitul curent după schimbarea limbii">
 <!ENTITY zls.settings.restartreload "Opțiuni de repornire/reîncărcare">
 <!ENTITY zls.settings.autorestart.ask "Avertizează-mă înainte de repornirea aplicaţiei">
-<!ENTITY zls.statusbar.main "Localizarea curentă cu Quick Locale Switcher">
+<!ENTITY zls.statusbar.main "Localizarea curentă cu Zotero Locale export Switcher">
 <!ENTITY zls.statusbar.tooltip.content "Conținut: &#37;1">
 <!ENTITY zls.statusbar.tooltip.gu "Interfață: &#37;1">
 <!ENTITY zls.useautoswitch.title "Schimbă automat">

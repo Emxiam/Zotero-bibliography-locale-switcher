@@ -1,4 +1,5 @@
-<!ENTITY zls.context.main "Quick Locale Switcher">
+<!ENTITY zls.settings.localeexport "Export locale">
+<!ENTITY zls.context.main "Zotero Locale export Switcher">
 <!ENTITY zls.description "Schnelles Wechseln und Anwenden verschiedener Spracheinstellungen">
 <!ENTITY zls.createdby "Erstellt von:">
 <!ENTITY zls.restoredefault "Standard wiederherstellen">
@@ -7,7 +8,7 @@
 <!ENTITY zls.askrestartmessage "Spracheinstellung geändert. Soll das Programm neu gestartet werden, um die Änderungen zu übernehmen?">
 <!ENTITY zls.pleasewait "Neue Spracheinstellungen übernehmen...">
 <!ENTITY zls.settings "Einstellungen...">
-<!ENTITY zls.settings.title "Quick Locale Switcher - Einstellungen">
+<!ENTITY zls.settings.title "Zotero Locale export Switcher - Einstellungen">
 <!ENTITY zls.settings.apply "Übernehmen">
 <!ENTITY zls.settings.description "Eigene Spracheinstellungen zum Menü hinzufügen (z.B. en-US-mac oder ja-JPM)">
 <!ENTITY zls.settings.locale "Sprache">
@@ -26,7 +27,7 @@
 <!ENTITY zls.settings.switch.reloadbrowserafterhalswitch "Nach dem Wechseln der Sprache für Web-Inhalte die aktuelle Seite neu laden">
 <!ENTITY zls.settings.restartreload "Anwendung neu starten / Seite neu laden">
 <!ENTITY zls.settings.autorestart.ask "Vor dem Neustart bestätigen">
-<!ENTITY zls.statusbar.main "Quick Locale Switcher: Aktuell gewählte Sprache">
+<!ENTITY zls.statusbar.main "Zotero Locale export Switcher: Aktuell gewählte Sprache">
 <!ENTITY zls.statusbar.tooltip.content "Web-Inhalte: &#37;1">
 <!ENTITY zls.statusbar.tooltip.gu "Benutzeroberfläche: &#37;1">
 <!ENTITY zls.useautoswitch.title "Automatischer Wechsel für Websites">

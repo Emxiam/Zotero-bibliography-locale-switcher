@@ -1,4 +1,4 @@
-<!ENTITY zls.context.main "Quick Locale Switcher">
+<!ENTITY zls.settings.localeexport "Export locale"><!ENTITY zls.context.main "Zotero Locale export Switcher">
 <!ENTITY zls.description "Snadno změní nastavení general.useragent.locale.">
 <!ENTITY zls.createdby "Vytvořil:">
 <!ENTITY zls.restoredefault "Obnovit původní">
@@ -7,7 +7,7 @@
 <!ENTITY zls.askrestartmessage "Jazyk byl změněn. Chcete restartovat prohlížeč pro provedení změn?">
 <!ENTITY zls.pleasewait "Nastavuje se nový jazyk...">
 <!ENTITY zls.settings "Nastavení...">
-<!ENTITY zls.settings.title "Nastavení Quick Locale Switcher">
+<!ENTITY zls.settings.title "Nastavení Zotero Locale export Switcher">
 <!ENTITY zls.settings.apply "Provést">
 <!ENTITY zls.settings.description "Přidat vlastní jazyky do menu. (např. en-US-mac nebo de-FY)">
 <!ENTITY zls.settings.locale "Jazyk">

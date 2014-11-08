@@ -1,4 +1,5 @@
-<!ENTITY zls.context.main "Quick Locale Switcher">
+<!ENTITY zls.settings.localeexport "Export locale">
+<!ENTITY zls.context.main "Zotero Locale export Switcher">
 <!ENTITY zls.description "Permite cambiar fácilmente la opción general.useragent.locale.">
 <!ENTITY zls.createdby "Creada por:">
 <!ENTITY zls.restoredefault "Volver a los valores por defecto">
@@ -7,7 +8,7 @@
 <!ENTITY zls.askrestartmessage "Idioma cambiado. ¿Quiere reinicar para aplicar los cambios ahora?">
 <!ENTITY zls.pleasewait "Aplicando el nuevo idioma...">
 <!ENTITY zls.settings "Opciones...">
-<!ENTITY zls.settings.title "Opciones de Quick Locale Switcher">
+<!ENTITY zls.settings.title "Opciones de Zotero Locale export Switcher">
 <!ENTITY zls.settings.apply "Aplicar">
 <!ENTITY zls.settings.description "Añada sus propios idiomas al menú. (ej. en-US-mac o ja-JPM)">
 <!ENTITY zls.settings.locale "Idioma">
@@ -26,7 +27,7 @@
 <!ENTITY zls.settings.switch.reloadbrowserafterhalswitch "Recargar la página actual tras cambiar el idioma">
 <!ENTITY zls.settings.restartreload "Reiniciar/Recargar opciones">
 <!ENTITY zls.settings.autorestart.ask "Avisarme antes de reiniciar la aplicación">
-<!ENTITY zls.statusbar.main "Idioma seleccionado actualmente en Quick Locale Switcher">
+<!ENTITY zls.statusbar.main "Idioma seleccionado actualmente en Zotero Locale export Switcher">
 <!ENTITY zls.statusbar.tooltip.content "Contenido: &#37;1">
 <!ENTITY zls.statusbar.tooltip.gu "Interaz de usuario: &#37;1">
 <!ENTITY zls.useautoswitch.title "Cambiar automáticamente">

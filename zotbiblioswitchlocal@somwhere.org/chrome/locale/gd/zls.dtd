@@ -1,4 +1,6 @@
-<!ENTITY zls.context.main "Quick Locale Switcher">
+
+<!ENTITY zls.settings.localeexport "Export locale">
+<!ENTITY zls.context.main "Zotero Locale export Switcher">
 <!ENTITY zls.description "Atharraich an roghainn general.useragent.locale gu luath.">
 <!ENTITY zls.createdby "Air a chruthachadh le:">
 <!ENTITY zls.restoredefault "Aisig na roghainnean bunaiteach">
@@ -7,7 +9,7 @@
 <!ENTITY zls.askrestartmessage "Dh\'atharraich thu do sgeama ionadail. A bheil thu airson an siostam agad tòiseachadh a-rithist gus na dh\'atharraich thu a chur an sàs ann?">
 <!ENTITY zls.pleasewait "A\' cur an sàs an àite ùir...">
 <!ENTITY zls.settings "Roghainnean...">
-<!ENTITY zls.settings.title "Roghainnean an Quick Locale Switcher">
+<!ENTITY zls.settings.title "Roghainnean an Zotero Locale export Switcher">
 <!ENTITY zls.settings.apply "Cuir an sàs">
 <!ENTITY zls.settings.description "Cuir sgeamannan ionadail gnàthaichte ris a\' chlàr-taice, (m.e. en-US-mac no de-FY)">
 <!ENTITY zls.settings.locale "Sgeama ionadail">
@@ -26,7 +28,7 @@
 <!ENTITY zls.settings.switch.reloadbrowserafterhalswitch "Ath-luchdaich an làrach làithreach as dèidh dhomh cànan na susbainte atharrachadh">
 <!ENTITY zls.settings.restartreload "Roghainnean an ath-thòiseachaidh / ath-luchdachaidh">
 <!ENTITY zls.settings.autorestart.ask "Thoir dhomh rabhadh mus dèid am prògram a thòiseachadh a-rithist">
-<!ENTITY zls.statusbar.main "Sgeama ionadail làithreach an Quick Locale Switcher">
+<!ENTITY zls.statusbar.main "Sgeama ionadail làithreach an Zotero Locale export Switcher">
 <!ENTITY zls.statusbar.tooltip.content "Susbaint: &#37;1">
 <!ENTITY zls.statusbar.tooltip.gu "Eadar-aghaidh: &#37;1">
 <!ENTITY zls.useautoswitch.title "Dèan suids gu fèin-obrachail">

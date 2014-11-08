@@ -1,4 +1,5 @@
-<!ENTITY zls.context.main "Quick Locale Switcher">
+<!ENTITY zls.settings.localeexport "Export locale">
+<!ENTITY zls.context.main "Zotero Locale export Switcher">
 <!ENTITY zls.description "ផ្លាស់ប្តូរភាសា និងការកំណត់របស់ មេខលា យ៉ាងរហ័ស។">
 <!ENTITY zls.createdby "បង្កើតដោយ">
 <!ENTITY zls.restoredefault "ស្តារលំនាំដើម">
@@ -7,7 +8,7 @@
 <!ENTITY zls.askrestartmessage "ភាសាត្រូវបានប្តូរ។ តើអ្នកចង់ចាប់ផ្តើមកម្មវិធីឡើងវិញ ដើម្បីឃើញការផ្លាស់ប្តូរឥឡូវ?">
 <!ENTITY zls.pleasewait "កំពុងប្តូរភាសាថ្មី...">
 <!ENTITY zls.settings "ជម្រើស...">
-<!ENTITY zls.settings.title "ជម្រើស Quick Locale Switcher">
+<!ENTITY zls.settings.title "ជម្រើស Zotero Locale export Switcher">
 <!ENTITY zls.settings.apply "អនុវត្ត">
 <!ENTITY zls.settings.description "បន្ថែមភាសាផ្ទាល់ខ្លួនរបស់អ្នកចូលម៉ឺនុយ។ (ឧ. km-KH ឬ km-KH-mac)">
 <!ENTITY zls.settings.locale "ភាសា">
@@ -26,7 +27,7 @@
 <!ENTITY zls.settings.switch.reloadbrowserafterhalswitch "ផ្ទុកតំបន់បណ្តាញបច្ចុប្បន្នឡើងវិញ បន្ទាប់ពីប្តូរមាតិការភាសា">
 <!ENTITY zls.settings.restartreload "ចាប់ផ្តើមឡើងវិញ / ផ្ទុកឡើងវិញ">
 <!ENTITY zls.settings.autorestart.ask "តឿនខ្ញុំមុននឹងចាប់ផ្តើមកម្មវិធីឡើងវិញ">
-<!ENTITY zls.statusbar.main "Quick Locale Switcher បានជ្រើសភាសា">
+<!ENTITY zls.statusbar.main "Zotero Locale export Switcher បានជ្រើសភាសា">
 <!ENTITY zls.statusbar.tooltip.content "មាតិការ: &#37;1">
 <!ENTITY zls.statusbar.tooltip.gu "ចំណុចប្រទាក់អ្នកប្រើ: &#37;1">
 <!ENTITY zls.useautoswitch.title "ប្តូរដោយស្វ័យប្រវត្តិ">

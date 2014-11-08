@@ -1,3 +1,5 @@
+<!ENTITY zls.settings.localeexport "Export locale">
+<!ENTITY zls.settings.localeexport "Export locale">
 <!ENTITY zls.context.main "ഭാഷ പേട്ടെന്ന് മാറ്റു">
 <!ENTITY zls.description "പേട്ടെന്ന് general.useragent.locale മാറ്റുന്നു">
 <!ENTITY zls.createdby "ഉണ്ടാക്കീയത്">
@@ -7,7 +9,7 @@
 <!ENTITY zls.askrestartmessage "ഭാഷ മാറ്റിയിരിക്കുന്നു. മാറ്റങ്ങള്‍ കാണുന്നതിന്‍ താങ്കളുടെ ബ്രൊസര്‍ ഇപ്പോള്‍ റിസ്റ്റാര്‍ട ചെയ്യട്ടെ">
 <!ENTITY zls.pleasewait "ഭാഷ മാറ്റുന്നു">
 <!ENTITY zls.settings "ഓപ്പ്ഷന്‍സ്">
-<!ENTITY zls.settings.title "Quick Locale Switcherന്റെ ഓപ്പ്ഷന്‍സ്">
+<!ENTITY zls.settings.title "Zotero Locale export Switcherന്റെ ഓപ്പ്ഷന്‍സ്">
 <!ENTITY zls.settings.apply "ചെയ്യു">
 <!ENTITY zls.settings.description "നിങ്ങളുടെതായ ഭാഷകള്‍ മെനുവിലേക്കു ചേര്‍ക്കു (ഉദാ: en-US-mac ഓ de-FY)">
 <!ENTITY zls.settings.locale "ഭാഷാ">
@@ -26,7 +28,7 @@
 <!ENTITY zls.settings.switch.reloadbrowserafterhalswitch "Reload the current website after switching the content language">
 <!ENTITY zls.settings.restartreload "Restart / Reload options">
 <!ENTITY zls.settings.autorestart.ask "ആപ്പളിക്കേഷന്‍ പുനരാരംഭിക്കൂന്നതിന്‍ മുന്നെ എനിക്ക് മുന്നരിയിപ്പ് നല്‍കുക">
-<!ENTITY zls.statusbar.main "Quick Locale Switcher ഇപ്പോള്‍ തിരഞ്ഞെടുത്തിരിക്കുന്ന ഭാഷ">
+<!ENTITY zls.statusbar.main "Zotero Locale export Switcher ഇപ്പോള്‍ തിരഞ്ഞെടുത്തിരിക്കുന്ന ഭാഷ">
 <!ENTITY zls.statusbar.tooltip.content "Content: &#37;1">
 <!ENTITY zls.statusbar.tooltip.gu "User Interface: &#37;1">
 <!ENTITY zls.useautoswitch.title "തനിയെ മാറ്റു">
