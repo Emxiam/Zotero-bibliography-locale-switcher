@@ -1,0 +1,277 @@
+<?xml version="1.0"?>
+<!DOCTYPE dialog SYSTEM "chrome://locale-switch/locale/zls.dtd">
+<?xml-stylesheet href="chrome://locale-switch/skin/zls.css" type="text/css"?>
+<!--
+	***** BEGIN LICENSE BLOCK *****
+Version: MPL 1.1/GPL 2.0/LGPL 2.1
+
+The contents of this file are subject to the Mozilla Public License Version
+1.1 (the "License"); you may not use this file except in compliance with
+the License. You may obtain a copy of the License at
+http://www.mozilla.org/MPL/
+
+Software distributed under the License is distributed on an "AS IS" basis,
+WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+for the specific language governing rights and limitations under the
+License.
+
+Based from Benjamin Smedberg's Quick Locale Switcher http://benjamin.smedbergs.us/switch-locales/The Initial Developer of the Original Code is Martijn Kooij a.k.a. Captain Caveman.
+
+Alternatively, the contents of this file may be used under the terms of
+either the GNU General Public License Version 2 or later (the "GPL"), or
+the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+in which case the provisions of the GPL or the LGPL are applicable instead
+of those above. If you wish to allow use of your version of this file only
+under the terms of either the GPL or the LGPL, and not to allow others to
+use your version of this file under the terms of the MPL, indicate your
+decision by deleting the provisions above and replace them with the notice
+and other provisions required by the GPL or the LGPL. If you do not delete
+the provisions above, a recipient may use your version of this file under
+the terms of any one of the MPL, the GPL or the LGPL.
+
+***** END LICENSE BLOCK *****-->
+
+<overlay xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" id="zotLocales_overlay">
+ <script id="zotLocales_script" type="application/x-javascript" src="chrome://locale-switch/content/switch.js" />
+
+   <menupopup id="zotero-tb-actions-popup">
+    <menu id="zotLocales_menu"
+          label="Language"
+          insertbefore="zotero-tb-actions-import">
+      <menupopup id="zotLocales_popup" onpopupshowing="zotLocales_load(this);" >
+      	<menuitem id="defaultZLS" type="radio" ccode="" label="&zls.restoredefault;" oncommand="zotLocales_switch(this.getAttribute('ccode'));" />
+			<menuseparator id="sbpmsCavemanQLS"/>
+			<menuitem type="radio" flagitem="true" id="sbpqlscustom1" ccode="" clocale="" label="" oncommand="zotLocales_switch(this.getAttribute('clocale'));" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="sbpqlscustom2" ccode="" clocale="" label="" oncommand="zotLocales_switch(this.getAttribute('clocale'));" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="sbpqlscustom3" ccode="" clocale="" label="" oncommand="zotLocales_switch(this.getAttribute('clocale'));" hidden="true"/>
+			<menuseparator id="sbpmsCavemanQLS2" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="af-ZA" ccode="af" label="&af-ZA;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="am-ET" ccode="am" label="&am-ET;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="ar-AE" ccode="ar" label="&ar-AE;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="ar-BH" ccode="" label="&ar-BH;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="ar-DZ" ccode="" label="&ar-DZ;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="ar-EG" ccode="" label="&ar-EG;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="ar-IQ" ccode="" label="&ar-IQ;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="ar-JO" ccode="" label="&ar-JO;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="ar-KW" ccode="" label="&ar-KW;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="ar-LB" ccode="" label="&ar-LB;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="ar-LY" ccode="" label="&ar-LY;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="ar-MA" ccode="" label="&ar-MA;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="ar-OM" ccode="" label="&ar-OM;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="ar-QA" ccode="" label="&ar-QA;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="ar-SA" ccode="" label="&ar-SA;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="ar-SY" ccode="" label="&ar-SY;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="ar-TN" ccode="" label="&ar-TN;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="ar-YE" ccode="" label="&ar-YE;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="arn-CL" ccode="arn" label="&arn-CL;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="as-IN" ccode="as" label="&as-IN;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="ast-ES" ccode="ast" label="&ast-ES;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="az-AZ-Cyrl" ccode="az" label="&az-AZ-Cyrl;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="az-AZ-Latn" ccode="" label="&az-AZ-Latn;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="ba-RU" ccode="ba" label="&ba-RU;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="be-BY" ccode="be" label="&be-BY;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="ber-DZ" ccode="ber" label="&ber-DZ;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="bg-BG" ccode="bg" label="&bg-BG;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="bn-BD" ccode="" label="&bn-BD;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="bn-IN" ccode="bn" label="&bn-IN;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="bo-BT" ccode="bo" label="&bo-BT;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="bo-CN" ccode="" label="&bo-CN;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="br-FR" ccode="br" label="&br-FR;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="bs-BA-Cyrl" ccode="bs" label="&bs-BA-Cyrl;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="bs-BA-Latn" ccode="bs" label="&bs-BA-Latn;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="ca-AD" ccode="ca" label="&ca-AD;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="ca-ES" ccode="" label="&ca-ES;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="ca-FR" ccode="" label="&ca-FR;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="ca-valencia" ccode="" label="&ca-valencia;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="co-FR" ccode="co" label="&co-FR;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="cs-CZ" ccode="cs" label="&cs-CZ;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="cy-GB" ccode="cy" label="&cy-GB;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="da-DK" ccode="da" label="&da-DK;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="de-AT" ccode="" label="&de-AT;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="de-CH" ccode="" label="&de-CH;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="de-DE" ccode="de" label="&de-DE;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="de-LI" ccode="" label="&de-LI;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="de-LU" ccode="" label="&de-LU;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="div-MV" ccode="div" label="&div-MV;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="el-GR" ccode="el" label="&el-GR;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="en-AU" ccode="" label="&en-AU;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="en-BZ" ccode="" label="&en-BZ;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="en-CA" ccode="" label="&en-CA;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="en-CB" ccode="" label="&en-CB;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="en-GB" ccode="" label="&en-GB;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="en-IE" ccode="" label="&en-IE;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="en-IN" ccode="" label="&en-IN;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="en-JA" ccode="" label="&en-JA;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="en-MY" ccode="" label="&en-MY;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="en-NZ" ccode="" label="&en-NZ;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="en-PH" ccode="" label="&en-PH;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="en-SG" ccode="" label="&en-SG;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="en-TT" ccode="" label="&en-TT;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="en-US" ccode="en" label="&en-US;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="en-ZA" ccode="" label="&en-ZA;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="en-ZW" ccode="" label="&en-ZW;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="eo-EO" ccode="eo" label="&eo-EO;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="es-AR" ccode="" label="&es-AR;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="es-BO" ccode="" label="&es-BO;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="es-CL" ccode="" label="&es-CL;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="es-CO" ccode="" label="&es-CO;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="es-CU" ccode="" label="&es-CU;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="es-CR" ccode="" label="&es-CR;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="es-DO" ccode="" label="&es-DO;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="es-EC" ccode="" label="&es-EC;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="es-ES" ccode="es" label="&es-ES;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="es-ES-ts" ccode="" label="&es-ES-ts;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="es-GT" ccode="" label="&es-GT;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="es-HN" ccode="" label="&es-HN;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="es-MX" ccode="" label="&es-MX;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="es-NI" ccode="" label="&es-NI;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="es-PA" ccode="" label="&es-PA;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="es-PE" ccode="" label="&es-PE;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="es-PR" ccode="" label="&es-PR;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="es-PY" ccode="" label="&es-PY;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="es-SV" ccode="" label="&es-SV;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="es-UY" ccode="" label="&es-UY;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="es-US" ccode="" label="&es-US;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="es-VE" ccode="" label="&es-VE;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="et-EE" ccode="et" label="&et-EE;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="eu-ES" ccode="eu" label="&eu-ES;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="fa-IR" ccode="fa" label="&fa-IR;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="fi-FI" ccode="fi" label="&fi-FI;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="fil-PH" ccode="fil" label="&fil-PH;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="fo-FO" ccode="fo" label="&fo-FO;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="fr-BE" ccode="" label="&fr-BE;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="fr-CA" ccode="" label="&fr-CA;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="fr-CH" ccode="" label="&fr-CH;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="fr-FR" ccode="fr" label="&fr-FR;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="fr-LU" ccode="" label="&fr-LU;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="fr-MC" ccode="" label="&fr-MC;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="fur-IT" ccode="fur" label="&fur-IT;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="fy-NL" ccode="fy" label="&fy-NL;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="ga-IE" ccode="ga" label="&ga-IE;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="gbz-AF" ccode="gbz" label="&gbz-AF;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="gd-GB" ccode="gd" label="&gd-GB;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="gl-ES" ccode="gl" label="&gl-ES;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="gsw-FR" ccode="gsw" label="&gsw-FR;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="gu-IN" ccode="gu" label="&gu-IN;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="ha-NG-Latn" ccode="ha" label="&ha-NG-Latn;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="he-IL" ccode="he" label="&he-IL;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="hi-IN" ccode="hi" label="&hi-IN;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="hr-BA" ccode="" label="&hr-BA;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="hr-HR" ccode="hr" label="&hr-HR;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="hu-HU" ccode="hu" label="&hu-HU;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="hy-AM" ccode="hy" label="&hy-AM;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="id-ID" ccode="id" label="&id-ID;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="ii-CN" ccode="ii" label="&ii-CN;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="is-IS" ccode="is" label="&is-IS;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="it-CH" ccode="" label="&it-CH;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="it-IT" ccode="it" label="&it-IT;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="iu-CA-Cans" ccode="iu" label="&iu-CA-Cans;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="iu-CA-Latn" ccode="" label="&iu-CA-Latn;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="ja-JP" ccode="ja" label="&ja-JP;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="ja-JP-mac" ccode="" label="&ja-JP-mac;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="ka-GE" ccode="ka" label="&ka-GE;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="kk-KZ" ccode="kk" label="&kk-KZ;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="kl-GL" ccode="kl" label="&kl-GL;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="km-KH" ccode="km" label="&km-KH;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="kn-IN" ccode="kn" label="&kn-IN;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="kok-IN" ccode="kok" label="&kok-IN;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="ko-KR" ccode="ko" label="&ko-KR;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="ky-KG" ccode="ky" label="&ky-KG;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="lb-LU" ccode="lb" label="&lb-LU;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="lo-LA" ccode="lo" label="&lo-LA;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="lt-LT" ccode="lt" label="&lt-LT;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="lug-UG" ccode="lug" label="&lug-UG;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="lv-LV" ccode="lv" label="&lv-LV;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="mi-NZ" ccode="mi" label="&mi-NZ;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="mk-MK" ccode="mk" label="&mk-MK;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="ml-IN" ccode="ml" label="&ml-IN;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="mn-CN" ccode="" label="&mn-CN;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="mn-MN" ccode="mn" label="&mn-MN;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="moh-CA" ccode="moh" label="&moh-CA;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="mr-IN" ccode="mr" label="&mr-IN;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="ms-BN" ccode="" label="&ms-BN;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="ms-MY" ccode="ms" label="&ms-MY;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="mt-MT" ccode="mt" label="&mt-MT;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="nb-NO" ccode="nb" label="&nb-NO;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="ne-NP" ccode="ne" label="&ne-NP;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="nl-BE" ccode="" label="&nl-BE;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="nl-NL" ccode="nl" label="&nl-NL;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="nn-NO" ccode="nn" label="&nn-NO;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="nso-ZA" ccode="nso" label="&nso-ZA;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="oc-FR" ccode="oc" label="&oc-FR;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="or-IN" ccode="or" label="&or-IN;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="pa-IN" ccode="pa" label="&pa-IN;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="pl-PL" ccode="pl" label="&pl-PL;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="ps-AF" ccode="ps" label="&ps-AF;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="pt-BR" ccode="" label="&pt-BR;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="pt-PT" ccode="pt" label="&pt-PT;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="qut-GT" ccode="qut" label="&qut-GT;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="quz-BO" ccode="" label="&quz-BO;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="quz-EC" ccode="" label="&quz-EC;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="quz-PE" ccode="quz" label="&quz-PE;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="rm-CH" ccode="rm" label="&rm-CH;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="ro-RO" ccode="ro" label="&ro-RO;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="ru-RU" ccode="ru" label="&ru-RU;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="rw-RW" ccode="rw" label="&rw-RW;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="sah-RU" ccode="sah" label="&sah-RU;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="sa-IN" ccode="sa" label="&sa-IN;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="se-FI" ccode="" label="&se-FI;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="se-NO" ccode="" label="&se-NO;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="se-SE" ccode="se" label="&se-SE;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="si-LK" ccode="si" label="&si-LK;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="sk-SK" ccode="sk" label="&sk-SK;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="sl-SI" ccode="sl" label="&sl-SI;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="sma-NO" ccode="sma" label="&sma-NO;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="sma-SE" ccode="" label="&sma-SE;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="smj-NO" ccode="smj" label="&smj-NO;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="smj-SE" ccode="" label="&smj-SE;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="smn-FI" ccode="smn" label="&smn-FI;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="sms-FI" ccode="sms" label="&sms-FI;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="son-NE" ccode="son" label="&son-NE;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="sq-AL" ccode="sq" label="&sq-AL;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="sr-BA-Cyrl" ccode="" label="&sr-BA-Cyrl;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="sr-BA-Latn" ccode="" label="&sr-BA-Latn;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="sr-ME" ccode="" label="&sr-ME;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="sr-RS" ccode="sr" label="&sr-RS;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="sv-FI" ccode="" label="&sv-FI;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="sv-SE" ccode="sv" label="&sv-SE;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="sw-KE" ccode="sw" label="&sw-KE;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="syr-SY" ccode="syr" label="&syr-SY;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="ta-IN" ccode="ta" label="&ta-IN;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="ta-LK" ccode="ta" label="&ta-LK;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="te-IN" ccode="te" label="&te-IN;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="tg-TJ-Cyrl" ccode="tg" label="&tg-TJ-Cyrl;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="th-TH" ccode="th" label="&th-TH;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="tk-TM" ccode="tk" label="&tk-TM;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="tn-ZA" ccode="tn" label="&tn-ZA;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="ur-IN" ccode="" label="&ur-IN;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="tr-TR" ccode="tr" label="&tr-TR;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="tt-RU" ccode="tt" label="&tt-RU;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="ug-CN" ccode="ug" label="&ug-CN;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="uk-UA" ccode="uk" label="&uk-UA;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="ur-PK" ccode="ur" label="&ur-PK;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="uz-UZ-Cyrl" ccode="uz" label="&uz-UZ-Cyrl;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="uz-UZ-Latn" ccode="" label="&uz-UZ-Latn;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="vi-VN" ccode="vi" label="&vi-VN;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="wa-BE" ccode="" label="&wa-BE;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="dsb-DE" ccode="dsb" label="&dsb-DE;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="hsb-DE" ccode="hsb" label="&hsb-DE;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="wo-SN" ccode="wo" label="&wo-SN;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="xh-ZA" ccode="xh" label="&xh-ZA;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="yo-NG" ccode="yo" label="&yo-NG;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="zh-CHS" ccode="" label="&zh-CHS;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="zh-CHT" ccode="" label="&zh-CHT;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="zh-CN" ccode="zh" label="&zh-CN;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="zh-HK" ccode="" label="&zh-HK;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="zh-MO" ccode="" label="&zh-MO;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="zh-SG" ccode="" label="&zh-SG;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="zh-TW" ccode="" label="&zh-TW;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuitem type="radio" flagitem="true" id="zu-ZA" ccode="" label="&zu-ZA;" oncommand="zotLocales_switch(this.id);" hidden="true"/>
+			<menuseparator id="sbpmsCavemanQLS3"/>
+			<menuitem class="menuitem-iconic qls-settings" id="sbpqlssettings" ccode="" label="&zls.settings;" oncommand="OpenSettings();"/>
+      </menupopup>
+    </menu>
+  </menupopup>
+</overlay>
+
+  

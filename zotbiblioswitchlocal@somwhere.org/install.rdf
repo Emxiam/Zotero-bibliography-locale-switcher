@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+ <Description rdf:about="urn:mozilla:install-manifest">
+   <em:id>zotbiblioswitchlocal@somwhere.org</em:id>
+   <em:unpack>false</em:unpack>
+   <em:name>Zotero Bibliography Locale Switcher</em:name>
+   <em:version>0.8</em:version>
+   <em:creator>Maxime Rigo</em:creator>
+   <em:contributor>Based from Benjamin Smedberg's Quick Locale Switcher http://benjamin.smedbergs.us/switch-locales/  and Martijn Kooij a.k.a. Captain Caveman</em:contributor>
+   <em:description>Displays a menu item for switching the zotero bibliography export locale.</em:description>
+  <em:homepageURL>http://www.somwhere.org</em:homepageURL>
+  <em:targetApplication>
+  
+    <Description>
+      <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+      <em:minVersion>4.0</em:minVersion>
+      <em:maxVersion>4.0.*</em:maxVersion>
+    </Description>
+    
+  </em:targetApplication>
+   </Description>
+</RDF>
