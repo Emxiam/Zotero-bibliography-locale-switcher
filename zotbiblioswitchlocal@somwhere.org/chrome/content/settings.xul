@@ -87,7 +87,7 @@ the terms of any one of the MPL, the GPL or the LGPL.
 			<listbox id="lbvisiblemenuitems" flex="1" seltype="single">
 			</listbox>
 			<vbox>
-				<button id="zls_selectall" image="chrome://locale-switch/content/zls_selectall.png" oncommand="Resetlocale();" style="min-width: 20px" label="" tooltiptext="&zls.settings.visiblemenuitems.selectall;"/>
+				<button id="zls_selectall" image="chrome://locale-switch/content/zls_selectall.png" oncommand="Resetlocale();" style="min-width: 20px" label="" tooltiptext="&zls.restoredefault;"/>
 				<button id="zls_deselectall" image="chrome://locale-switch/content/zls_deselectall.png" oncommand="SelectAllItems(false);" style="min-width: 20px" label="" tooltiptext="&zls.settings.visiblemenuitems.deselectall;"/>
 			</vbox>
 		</hbox>
