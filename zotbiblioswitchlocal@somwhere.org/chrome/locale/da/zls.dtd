@@ -1,6 +1,6 @@
 <!ENTITY zls.settings.localeexport "Export locale">
 <!ENTITY zls.context.main "Zotero Locale export Switcher">
-<!ENTITY zls.description "Hurtigt skift af general.useragent.locale præferencen.">
+<!ENTITY zls.description "Displays a menu item for switching the zotero bibliography export locale.">
 <!ENTITY zls.createdby "Skabt af:">
 <!ENTITY zls.restoredefault "Genetabler standard">
 <!ENTITY zls.notifyrestart "Vis ikke denne meddelelse igen.">

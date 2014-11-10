@@ -1,6 +1,6 @@
 <!ENTITY zls.settings.localeexport "Export locale">
 <!ENTITY zls.context.main "Zotero Locale export Switcher">
-<!ENTITY zls.description "Pas fluch de general.useragent.locale-ynstelling oan.">
+<!ENTITY zls.description "Displays a menu item for switching the zotero bibliography export locale.">
 <!ENTITY zls.createdby "Makke troch:">
 <!ENTITY zls.restoredefault "Standert weromsette">
 <!ENTITY zls.notifyrestart "Toan dizze melding net mear.">

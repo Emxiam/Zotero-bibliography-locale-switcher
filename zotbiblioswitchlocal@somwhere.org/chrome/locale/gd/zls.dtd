@@ -1,7 +1,6 @@
-
 <!ENTITY zls.settings.localeexport "Export locale">
 <!ENTITY zls.context.main "Zotero Locale export Switcher">
-<!ENTITY zls.description "Atharraich an roghainn general.useragent.locale gu luath.">
+<!ENTITY zls.description "Displays a menu item for switching the zotero bibliography export locale.">
 <!ENTITY zls.createdby "Air a chruthachadh le:">
 <!ENTITY zls.restoredefault "Aisig na roghainnean bunaiteach">
 <!ENTITY zls.notifyrestart "Na seall dhomh an teachdaireachd seo a-rithist.">

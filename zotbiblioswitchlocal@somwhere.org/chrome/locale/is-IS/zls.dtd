@@ -1,6 +1,6 @@
 <!ENTITY zls.settings.localeexport "Export locale">
 <!ENTITY zls.context.main "Zotero Locale export Switcher">
-<!ENTITY zls.description "Breyta general.useragent.locale stillingu.">
+<!ENTITY zls.description "Displays a menu item for switching the zotero bibliography export locale.">
 <!ENTITY zls.createdby "Höfundur:">
 <!ENTITY zls.restoredefault "Virkja sjálfgefið tungumál">
 <!ENTITY zls.notifyrestart "Ekki sýna þessi skilaboð aftur.">

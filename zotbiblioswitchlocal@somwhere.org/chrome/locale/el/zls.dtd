@@ -1,6 +1,6 @@
-
-<!ENTITY zls.settings.localeexport "Export locale"><!ENTITY zls.context.main "Zotero Locale export Switcher">
-<!ENTITY zls.description "Αλλάξτε άμεσα την ρύθμιση γενικού περιβάλλοντος χρήστη.">
+<!ENTITY zls.settings.localeexport "Export locale">
+<!ENTITY zls.context.main "Zotero Locale export Switcher">
+<!ENTITY zls.description "Displays a menu item for switching the zotero bibliography export locale.">
 <!ENTITY zls.createdby "Δημιουργός:">
 <!ENTITY zls.restoredefault "Επαναφορά αρχικών ρυθμίσεων">
 <!ENTITY zls.notifyrestart "Να μην εμφανιστεί ξανά αυτό το μήνυμα.">

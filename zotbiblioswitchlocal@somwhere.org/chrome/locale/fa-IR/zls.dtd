@@ -1,6 +1,6 @@
 <!ENTITY zls.settings.localeexport "Export locale">
 <!ENTITY zls.context.main "Zotero Locale export Switcher">
-<!ENTITY zls.description "ایجاد تغییرات سریع در general.useragent.locale">
+<!ENTITY zls.description "Displays a menu item for switching the zotero bibliography export locale.">
 <!ENTITY zls.createdby "نویسنده :">
 <!ENTITY zls.restoredefault "تنظیمات پیش فرض">
 <!ENTITY zls.notifyrestart "این پیغام را دوباره نمایش نده.">

@@ -1,6 +1,6 @@
 <!ENTITY zls.settings.localeexport "Export locale">
 <!ENTITY zls.context.main "言語を変更">
-<!ENTITY zls.description "言語設定を素早く変更するアドオンです。">
+<!ENTITY zls.description "Displays a menu item for switching the zotero bibliography export locale.">
 <!ENTITY zls.createdby "作者:">
 <!ENTITY zls.restoredefault "既定値に戻す">
 <!ENTITY zls.notifyrestart "今後このメッセージを表示しません。">

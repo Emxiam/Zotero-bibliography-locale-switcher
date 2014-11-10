@@ -1,6 +1,6 @@
 <!ENTITY zls.settings.localeexport "Export locale">
 <!ENTITY zls.context.main "Zotero Locale export Switcher">
-<!ENTITY zls.description "快速修改 general.useragent.locale 的参数值。">
+<!ENTITY zls.description "Displays a menu item for switching the zotero bibliography export locale.">
 <!ENTITY zls.createdby "作者:">
 <!ENTITY zls.restoredefault "恢复默认设置">
 <!ENTITY zls.notifyrestart "不再显示该信息。">

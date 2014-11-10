@@ -1,6 +1,6 @@
 <!ENTITY zls.settings.localeexport "Export locale">
-<!ENTITY zls.context.main "Discandjî d&apos; locåle">
-<!ENTITY zls.description "Candjî abeye et åjheymint l&apos; locåle di l&apos; eterface (tchuze «general.useragent.locale»).">
+<!ENTITY zls.context.main "Zotero Locale export Switcher">
+<!ENTITY zls.description "Displays a menu item for switching the zotero bibliography export locale.">
 <!ENTITY zls.createdby "Fwait pa:">
 <!ENTITY zls.restoredefault "Rimete li prémetowe locåle">
 <!ENTITY zls.notifyrestart "Èn pus håyner ci messaedje ci.">

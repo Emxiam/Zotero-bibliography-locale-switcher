@@ -1,8 +1,8 @@
 <!ENTITY zls.settings.localeexport "Langue d'export">
 <!ENTITY zls.context.main "Zotero Locale export Switcher">
-<!ENTITY zls.description "Change facilement la langue de l\'interface (general.useragent.locale), dans le menu Outils .">
+<!ENTITY zls.description "Change facilement la langue d'export de la bibliographie dans Zotero.">
 <!ENTITY zls.createdby "Créée par :">
-<!ENTITY zls.restoredefault "Rétablir la langue par défaut">
+<!ENTITY zls.restoredefault "Rétablir la selection par défaut">
 <!ENTITY zls.notifyrestart "Ne plus montrer ce message ultérieurement.">
 <!ENTITY zls.restartmessage "La langue d\'interface a changé. Il est probablement nécessaire de redémarrer votre navigateur pour que le changement soit effectif.">
 <!ENTITY zls.askrestartmessage "La langue d\'interface a changé. Souhaitez-vous redémarrer pour voir les changements maintenant ?">

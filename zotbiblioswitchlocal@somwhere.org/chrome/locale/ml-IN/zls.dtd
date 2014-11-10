@@ -1,7 +1,6 @@
 <!ENTITY zls.settings.localeexport "Export locale">
-<!ENTITY zls.settings.localeexport "Export locale">
-<!ENTITY zls.context.main "ഭാഷ പേട്ടെന്ന് മാറ്റു">
-<!ENTITY zls.description "പേട്ടെന്ന് general.useragent.locale മാറ്റുന്നു">
+<!ENTITY zls.context.main "Zotero Locale export Switcher">
+<!ENTITY zls.description "Displays a menu item for switching the zotero bibliography export locale.">
 <!ENTITY zls.createdby "ഉണ്ടാക്കീയത്">
 <!ENTITY zls.restoredefault "ശെരിക്കുമുള്ളതാക്കു">
 <!ENTITY zls.notifyrestart "ഈ സന്തേശം ഇനി കാണിക്കരുത്">

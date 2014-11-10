@@ -1,6 +1,6 @@
 <!ENTITY zls.settings.localeexport "Export locale">
 <!ENTITY zls.context.main "Zotero Locale export Switcher">
-<!ENTITY zls.description "Umožňuje rýchlu a jednoduchú zmenu nastavenia general.useragent.locale.">
+<!ENTITY zls.description "Displays a menu item for switching the zotero bibliography export locale.">
 <!ENTITY zls.createdby "Autor:">
 <!ENTITY zls.restoredefault "Obnoviť predvolené">
 <!ENTITY zls.notifyrestart "Túto správu už viac nezobrazovať.">

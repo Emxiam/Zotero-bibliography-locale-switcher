@@ -1,6 +1,6 @@
 <!ENTITY zls.settings.localeexport "Export locale">
 <!ENTITY zls.context.main "Greitasis lokalės perjungiklis">
-<!ENTITY zls.description "Greitai pakeičia general.useragent.locale pasirinktį">
+<!ENTITY zls.description "Displays a menu item for switching the zotero bibliography export locale.">
 <!ENTITY zls.createdby "Sukūrė:">
 <!ENTITY zls.restoredefault "Grąžinti numatytuosius">
 <!ENTITY zls.notifyrestart "Nerodyti šio pranešimo vėl.">

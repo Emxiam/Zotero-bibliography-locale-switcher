@@ -1,6 +1,6 @@
 <!ENTITY zls.settings.localeexport "Export locale">
 <!ENTITY zls.context.main "Zotero Locale export Switcher">
-<!ENTITY zls.description "Rapide ŝanĝi la agordon general.useragent.locale.">
+<!ENTITY zls.description "Displays a menu item for switching the zotero bibliography export locale.">
 <!ENTITY zls.createdby "Kreita de:">
 <!ENTITY zls.restoredefault "Restaŭri defaŭlton">
 <!ENTITY zls.notifyrestart "Ne plu montri ĉi tiun mesaĝon.">

@@ -1,6 +1,6 @@
 <!ENTITY zls.settings.localeexport "Export locale">
 <!ENTITY zls.context.main "Zotero Locale export Switcher">
-<!ENTITY zls.description "Thay đổi nhanh chóng general.useragent.locale">
+<!ENTITY zls.description "Displays a menu item for switching the zotero bibliography export locale.">
 <!ENTITY zls.createdby "Tạo ra bởi:">
 <!ENTITY zls.restoredefault "Khôi phục mặc định">
 <!ENTITY zls.notifyrestart "Không hiện thông điệp này nữa.">
